@@ -315,7 +315,7 @@
 
                     <div class="banner-btn btn-st btn-clr-chng-st wow fadeInRight" data-wow-duration="2s">
                         <a href="javascript:;" data-toggle="modal" data-target="#exampleModal" class="get-started ">Get a Quote</a>
-                        <a href="tel:(727) 513-5653 " class="call-st  w callphone">Call US - (727) 513-5653 </a>
+                        <a href="tel:(727) 513-5653 " class="call-st  w callphone">Call US - (727) 273-7217 </a>
 
                     </div>
                 </div>
@@ -455,7 +455,7 @@
                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                 </div>
                                 <p>Call now</p>
-                                (727) 513-5653 
+                                (727) 273-7217 
                             </a>
                         </div>
                         <div class="call-why-div wow zoomIn" data-wow-duration="5s">
@@ -604,7 +604,7 @@
                                     <a href="javascript:;" data-toggle="modal" data-target="#exampleModal" class="get-started   wow fadeInUp" data-wow-duration="2s">Get
                                         a Quote</a>
                                     <a href="tel:(727) 513-5653 " class="call-st  wow fadeInUp callphone"
-                                        data-wow-duration="2s">Call US - (727) 513-5653 </a>
+                                        data-wow-duration="2s">Call US - (727) 273-7217 </a>
 
                                 </div>
                             </div>
@@ -617,7 +617,7 @@
                                     and revenue. </p>
                                 <div class="banner-btn btn-st wow fadeInUp" data-wow-delay="400ms">
                                     <a href="javascript:;" data-toggle="modal" data-target="#exampleModal" class="get-started ">Get a Quote</a>
-                                    <a href="tel:(727) 513-5653 " class="call-st callphone">Call US - (727) 513-5653 </a>
+                                    <a href="tel:(727) 513-5653 " class="call-st callphone">Call US - (727) 273-7217 </a>
 
                                 </div>
                             </div>
@@ -653,7 +653,7 @@
                 <div class="cta-main-btn wow fadeInUp" data-wow-duration="4s"
                     style="visibility: visible; animation-duration: 4s; animation-name: fadeInUp;">
                     <a href="javascript:;" data-toggle="modal" data-target="#exampleModal" class="get-started get-started-cta ">Get A Quote</a>
-                    <a href="tel:(727) 513-5653 " class="call-st-cta callphone">Call US - (727) 513-5653 </a>
+                    <a href="tel:(727) 513-5653 " class="call-st-cta callphone">Call US - (727) 273-7217 </a>
                 </div>
             </div>
         </div>
@@ -756,7 +756,7 @@
 
 <!--                <div class="cta-btn">-->
 
-<!--                  <a href="tel:+(727) 513-5653 " class="cta-btn-1" >Call Us (727) 513-5653 </a>-->
+<!--                  <a href="tel:+(727) 513-5653 " class="cta-btn-1" >Call Us (727) 273-7217 </a>-->
 
 <!--                    <a href="javascript:;" onclick="LiveChatWidget.call('maximize');return false;" class="cta-btn-2 liveChat" >Live Chat</a>-->
 
@@ -856,7 +856,7 @@
                                 </div>
                                 <div class="col-lg col-b-2">
                                     <p>Make a Call</p>
-                                    <a href="tel:+17275135653" class="con-cta-btn ct-b2"> (727) 513-5653</a>
+                                    <a href="tel:+17272737217" class="con-cta-btn ct-b2"> (727) 273-7217</a>
                                 </div>
                                 <div class="col-lg p0 col-b-3">
                                     <p>Send us Email</p>
@@ -1050,11 +1050,11 @@
                     </span>
                     <span>Chat With Us</span>
                 </a>
-                <a href="tel:+17275135653" class="call_wrap">
+                <a href="tel:+17272737217" class="call_wrap">
                     <span class="icoo">
                         <i class="fa fa-phone"></i>
                     </span>
-                    <span> (727) 513-5653</span>
+                    <span> (727) 273-7217</span>
                 </a>
             </div>
             <div class="clickbutton">
