@@ -52,7 +52,7 @@
                                             <form method="post"  class="form_submission form-get-quote" id="contact-form" action="/leads/">
                                                  <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="amazonpublishingspot">
+<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
@@ -185,7 +185,7 @@
                         <form method="POST" class="form-get-quote form_submission" action="/leads/">
                              <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="amazonpublishingspot">
+<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
@@ -661,7 +661,7 @@ Dr. J.K Hudson
                             <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/">
                                 <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="amazonpublishingspot">
+<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
@@ -848,7 +848,7 @@ Dr. J.K Hudson
                     <form  class="form_submission form-get-quote" method="POST" action="/leads/">
                         <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="amazonpublishingspot">
+<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
@@ -949,7 +949,7 @@ Dr. J.K Hudson
                         <form  method="POST" action="/leads/" class="form_submission form-get-quote">
                             <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="amazonpublishingspot">
+<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">

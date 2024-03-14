@@ -111,7 +111,7 @@
 		<form action="/leads/" method="POST" class="form-get-quote form_submission" id="contact-form">
 		     <input type="hidden" name="url" value='book-publishing.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="amazonpublishingspot">
+<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
@@ -1002,7 +1002,7 @@
                             <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/">
                                 <input type="hidden" name="url" value='book-publishing.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="amazonpublishingspot">
+<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
@@ -1190,7 +1190,7 @@
                     <form  class="form_submission form-get-quote" method="POST" action="/leads/">
                         <input type="hidden" name="url" value='book-publishing.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="amazonpublishingspot">
+<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
@@ -1290,7 +1290,7 @@
                         <form  method="POST" action="/leads/" class="form_submission form-get-quote">
                             <input type="hidden" name="url" value='book-publishing.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="amazonpublishingspot">
+<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
