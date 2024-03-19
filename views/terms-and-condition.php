@@ -305,7 +305,7 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                                 </div>
                                 <div class="col-lg col-b-2">
                                     <p>Make a Call</p>
-                                    <a href="tel:+17272737217" class="con-cta-btn ct-b2"> (727) 273-7217</a>
+                                    <a href="tel:+7272737217" class="con-cta-btn ct-b2"> (727) 273-7217</a>
                                 </div>
                                 <div class="col-lg p0 col-b-3">
                                     <p>Send us Email</p>
@@ -499,7 +499,7 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                     </span>
                     <span>Chat With Us</span>
                 </a>
-                <a href="tel:+17272737217" class="call_wrap">
+                <a href="tel:+7272737217" class="call_wrap">
                     <span class="icoo">
                         <i class="fa fa-phone"></i>
                     </span>
