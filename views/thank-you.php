@@ -5,6 +5,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
         <?php include_once("includes/head.php")?>
+        <!-- Event snippet for submit lead form - amazonpublishingspot conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-308326143/P2XaCP_xnJ4ZEP_dgpMB'});
+</script>
+
         
         
 
