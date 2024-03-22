@@ -10,14 +10,6 @@
   gtag('event', 'conversion', {'send_to': 'AW-308326143/P2XaCP_xnJ4ZEP_dgpMB'});
 </script>
 
-        
-        
-
-
-        
-        
-
-
         <title>Thank You | Amazon Publishing Spot </title>
     </head>
     <body class="">
