@@ -137,8 +137,8 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="">
-                    <img class="logo horizontal-logo" src="images/blacklogo.png" alt="Brand Logo" style="max-width:50%;>
+                <a class="navbar-brand" href="/">
+                    <img class="logo horizontal-logo" src="images/blacklogo.png" alt="Brand Logo" style="max-width:50%;">
                 </a>
                 <div class="collapse navbar-collapse topnavs">
                     <ul class="navbar-nav ml-auto">
