@@ -418,102 +418,102 @@
                         <ul>
                             <h4>Ghostwriting Services </h4>
                             <li>
-                                <a href="business-books">business books</a>
+                                <a href="">business books</a>
                             </li>
                             <li>
-                                <a href="nonfiction">Nonfiction</a>
+                                <a href="">Nonfiction</a>
                             </li>
                             <li>
-                                <a href="memoir-autobiography">memoir/autobiography</a>
+                                <a href="">memoir/autobiography</a>
                             </li>
                             <li>
-                                <a href="fiction">fiction</a>
+                                <a href="">fiction</a>
                             </li>
                             <li>
-                                <a href="western-writing-service">Western Writing</a>
+                                <a href="">Western Writing</a>
                             </li>
                             <li>
-                                <a href="romantic-writing-service">Romantic Writing</a>
+                                <a href="">Romantic Writing</a>
                             </li>
                             <li>
-                                <a href="action-adventure-writing-service">Action Adventure</a>
+                                <a href="">Action Adventure</a>
                             </li>
                             <li>
-                                <a href="christian-faith-publishing-services">Christian- Faith</a>
+                                <a href="">Christian- Faith</a>
                             </li>
                             <li>
-                                <a href="drama-writing-service">Drama Writing</a>
+                                <a href="">Drama Writing</a>
                             </li>
                             <li>
-                                <a href="ebook-writing-services">eBook Writing</a>
+                                <a href="">eBook Writing</a>
                             </li>
                             <li>
-                                <a href="horror-writing-service">Horror Writing</a>
+                                <a href="">Horror Writing</a>
                             </li>
                             <li>
-                                <a href="hip-hop-rap-ghostwriters">Hip Hop Ghostwriters</a>
+                                <a href="">Hip Hop Ghostwriters</a>
                             </li>
                             <li>
-                                <a href="javascript:;">Article Writing</a>
+                                <a href="">Article Writing</a>
                             </li>
                         </ul>
 
                         <ul>
                             <h4>Publishing & <br>Editing</h4>
                             <li>
-                                <a href="publication">PR Publication</a>
+                                <a href="">PR Publication</a>
                             </li>
                             <li>
-                                <a href="book-publishing">Book Publishing</a>
+                                <a href="">Book Publishing</a>
                             </li>
                             <li>
-                                <a href="printing-books">Printing Books</a>
+                                <a href="">Printing Books</a>
                             </li>
                             <li>
-                                <a href="self-help-publishing-amazon">Self-Help Publishing Amazon</a>
+                                <a href="">Self-Help Publishing Amazon</a>
                             </li>
                             <li>
-                                <a href="amazon-printing-books-services">Amazon Printing</a>
+                                <a href="">Amazon Printing</a>
                             </li>
                             <li>
-                                <a href="book-formatting">Book Formatting</a>
+                                <a href="">Book Formatting</a>
                             </li>
                             <li>
-                                <a href="book-review-template">Book Review Template</a>
+                                <a href="">Book Review Template</a>
                             </li>
                             <li>
-                                <a href="childrens-book-editing">Children's Book Editing</a>
+                                <a href="">Children's Book Editing</a>
                             </li>
                             <li>
-                                <a href="proofreading-editing-services">Proofreading Editing</a>
+                                <a href="">Proofreading Editing</a>
                             </li>
                         </ul>
 
                         <ul>
                             <h4>Book Marketing and Production</h4>
                             <li>
-                                <a href="book-cover-design">Book Cover Design</a>
+                                <a href="">Book Cover Design</a>
                             </li>
                             <li>
-                                <a href="audio-book">Audio Book</a>
+                                <a href="">Audio Book</a>
                             </li>
                             <li>
-                                <a href="illustrations-service">Illustrations</a>
+                                <a href="">Illustrations</a>
                             </li>
                             <li>
-                                <a href="logo-design">Author Logo Design</a>
+                                <a href="">Author Logo Design</a>
                             </li>
                             <li>
-                                <a href="e-commerce">Author E-Commerce Website</a>
+                                <a href="">Author E-Commerce Website</a>
                             </li>
                             <li>
-                                <a href="book-video">Book Video</a>
+                                <a href="">Book Video</a>
                             </li>
                             <li>
-                                <a href="ebook-social-media-marketing">Ebook Social Media Marketing</a>
+                                <a href="">Ebook Social Media Marketing</a>
                             </li>
                             <li>
-                                <a href="ebook-seo">EBook SEO</a>
+                                <a href="">EBook SEO</a>
                             </li>
                             <!-- <li>
                                 <a href="javascript:;">Google Knowlegde Graph</a>
