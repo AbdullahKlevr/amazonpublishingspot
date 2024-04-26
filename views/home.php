@@ -827,7 +827,7 @@ Dr. J.K Hudson
                     <div class="col-md-4">
                         <div class="copy-txt">
                             <p style="font-size:12px; color:#fff;">Copyright © 2024 Amazon Publishing Spot  . All Rights Reserved. </p>
-                        <p style="font-size:14px; color:#fff;">Disclosure : Amazon Publishing Spot is a strategic partner of Saibina Corp</p>
+                        
                         </div>
                     </div>
                     <div class="col-md-4"></div>
