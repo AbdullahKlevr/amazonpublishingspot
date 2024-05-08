@@ -217,14 +217,14 @@ If you have any inquiries, please email us at info@amazonpublishingspot.com
                             <p>Please fill out your details, and our team will contact you soon.</p>
                         </div>
                         <div class="contact-box col-md-8">
-                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/">
+                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="honeypot" style="display: none;">
                                 <input type="hidden" name="url" value='https://amazonpublishingspot.com/privacy-policy'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                                 <div class="col-md-12 c-b-div contactbox p0">
@@ -404,14 +404,14 @@ If you have any inquiries, please email us at info@amazonpublishingspot.com
                     <div class="banner-inner-tr">
                         <img src="images/50-off.png">
                     </div>
-                    <form  class="form_submission form-get-quote" method="POST" action="/leads/">
+                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="honeypot" style="display: none;">
                         <input type="hidden" name="url" value='privacy-policy.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            <input type="hidden" name="brief">
            
@@ -511,7 +511,7 @@ If you have any inquiries, please email us at info@amazonpublishingspot.com
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                             <div class="row">

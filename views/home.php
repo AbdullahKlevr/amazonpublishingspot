@@ -49,14 +49,14 @@
                                         <img src="images/blacklogo.png" class="img-fluid logoimg">
                                         <h2 style="color:#000;font-size:40px;">Create account</h2>
                                         <div class="default-form">
-                                            <form method="post"  class="form_submission form-get-quote" id="contact-form" action="/leads/">
+                                            <form method="post"  class="form_submission form-get-quote" id="contact-form" action="/leads/"><input type="text" name="honeypot" style="display: none;">
                                                  <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
                                                 <div class="row clearfix">
                                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
@@ -182,14 +182,14 @@
                             <h2>Sign up Now with Amazon Publishing Spot  to Get Our <strong>Limited Time Offer</strong> </h2>
                         </div>
                         <!-- btn form-btn -->
-                        <form method="POST" class="form-get-quote form_submission" action="/leads/">
+                        <form method="POST" class="form-get-quote form_submission" action="/leads/"><input type="text" name="honeypot" style="display: none;">
                              <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            <input type="hidden" name="brief">
            
@@ -658,14 +658,14 @@ Dr. J.K Hudson
                             <p>Please fill out your details, and our team will contact you soon.</p>
                         </div>
                         <div class="contact-box col-md-8">
-                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/">
+                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="honeypot" style="display: none;">
                                 <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                                 <div class="col-md-12 c-b-div contactbox p0">
@@ -847,14 +847,14 @@ Dr. J.K Hudson
                     <div class="banner-inner-tr">
                         <img src="images/50-off.png">
                     </div>
-                    <form  class="form_submission form-get-quote" method="POST" action="/leads/">
+                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="honeypot" style="display: none;">
                         <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            <input type="hidden" name="brief">
            
@@ -955,7 +955,7 @@ Dr. J.K Hudson
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                             <div class="row">
