@@ -24,7 +24,10 @@ $data=array(
     'price'=> $price,
     'domain' => $domain
 );
-
+if($_REQUEST["news"] != ""){
+    header("location: /");
+    exit();
+}
 if($_REQUEST['phone'] == '5556660606' || $_REQUEST['phone'] == '555-666-0606'){
     exit(header("location:/"));
 }

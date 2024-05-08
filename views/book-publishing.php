@@ -115,7 +115,7 @@
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-route
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
            
@@ -1006,7 +1006,7 @@ route
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-route
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                                 <div class="col-md-12 c-b-div contactbox p0">
@@ -1194,7 +1194,7 @@ route
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-route
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            <input type="hidden" name="brief">
            
@@ -1294,7 +1294,7 @@ route
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-route
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                             <div class="row">

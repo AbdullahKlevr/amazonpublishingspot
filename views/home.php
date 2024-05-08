@@ -58,7 +58,7 @@
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-route
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
                                                 <div class="row clearfix">
                                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
@@ -179,7 +179,7 @@ route
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-route
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            <input type="hidden" name="brief">
            
@@ -655,7 +655,7 @@ Dr. J.K Hudson
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-route
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                                 <div class="col-md-12 c-b-div contactbox p0">
@@ -844,7 +844,7 @@ route
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-route
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            <input type="hidden" name="brief">
            
@@ -945,7 +945,7 @@ route
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-route
+<input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                             <div class="row">
