@@ -71,7 +71,7 @@
 
                     </div>
                     <div class="col-lg-5 offset-lg-1">
-                        <form class="ban-form" method="POST" action="/leads/"><input type="text" name="honeypot" style="display: none;">
+                        <form class="ban-form" method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
                         <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">

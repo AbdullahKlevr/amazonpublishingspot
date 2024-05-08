@@ -1000,7 +1000,7 @@ from our professional staff.
                             <p>Please fill out your details, and our team will contact you soon.</p>
                         </div>
                         <div class="contact-box col-md-8">
-                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="honeypot" style="display: none;">
+                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
                                 <input type="hidden" name="url" value='amazon-publishing.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -1189,7 +1189,7 @@ from our professional staff.
                     <div class="banner-inner-tr">
                         <img src="images/50-off.png">
                     </div>
-                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="honeypot" style="display: none;">
+                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
                         <input type="hidden" name="url" value='amazon-publishing.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">

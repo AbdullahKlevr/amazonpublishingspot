@@ -51,7 +51,7 @@
                                         <div class="default-form">
                                             <form method="post"  class="form_submission form-get-quote" id="contact-form" action="/leads/">
                                                 
-                                                <input type="text" name="honeypot" style="display: none;">
+                                                <input type="text" name="route" style="display: none;">
                                                  <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -184,7 +184,7 @@
                             <h2>Sign up Now with Amazon Publishing Spot  to Get Our <strong>Limited Time Offer</strong> </h2>
                         </div>
                         <!-- btn form-btn -->
-                        <form method="POST" class="form-get-quote form_submission" action="/leads/"><input type="text" name="honeypot" style="display: none;">
+                        <form method="POST" class="form-get-quote form_submission" action="/leads/"><input type="text" name="route" style="display: none;">
                              <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -660,7 +660,7 @@ Dr. J.K Hudson
                             <p>Please fill out your details, and our team will contact you soon.</p>
                         </div>
                         <div class="contact-box col-md-8">
-                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="honeypot" style="display: none;">
+                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
                                 <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -849,7 +849,7 @@ Dr. J.K Hudson
                     <div class="banner-inner-tr">
                         <img src="images/50-off.png">
                     </div>
-                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="honeypot" style="display: none;">
+                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
                         <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
