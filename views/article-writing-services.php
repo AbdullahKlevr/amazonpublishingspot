@@ -132,7 +132,7 @@
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
            
@@ -814,7 +814,7 @@ Audience
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                                 <div class="col-md-12 c-b-div contactbox p0">
@@ -1001,7 +1001,7 @@ Audience
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            <input type="hidden" name="brief">
            
@@ -1101,7 +1101,7 @@ Audience
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                             <div class="row">

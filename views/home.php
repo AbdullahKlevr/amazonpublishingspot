@@ -56,7 +56,7 @@
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
                                                 <div class="row clearfix">
                                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
@@ -189,7 +189,7 @@
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            <input type="hidden" name="brief">
            
@@ -665,7 +665,7 @@ Dr. J.K Hudson
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                                 <div class="col-md-12 c-b-div contactbox p0">
@@ -854,7 +854,7 @@ Dr. J.K Hudson
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            <input type="hidden" name="brief">
            
@@ -955,7 +955,7 @@ Dr. J.K Hudson
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+<input type="hidden" name="news" value="1"><input type="text" name="honeypot" style="display: none;">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
            
                             <div class="row">
