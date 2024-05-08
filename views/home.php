@@ -45,7 +45,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <!-- <div class="form-box">
+                                    <div class="form-box">
                                         <img src="images/blacklogo.png" class="img-fluid logoimg">
                                         <h2 style="color:#000;font-size:40px;">Create account</h2>
                                         <div class="default-form">
@@ -56,7 +56,7 @@
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
-<input type="hidden" name="tag" value="top-form">
+<input type="hidden" name="" value="">
 <input type="hidden" name="price" value="null">
 <input type="hidden" name="news" value="1">
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
@@ -119,7 +119,7 @@
                                                 </div>
                                             </form>
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
