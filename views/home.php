@@ -49,7 +49,9 @@
                                         <img src="images/blacklogo.png" class="img-fluid logoimg">
                                         <h2 style="color:#000;font-size:40px;">Create account</h2>
                                         <div class="default-form">
-                                            <form method="post"  class="form_submission form-get-quote" id="contact-form" action="/leads/"><input type="text" name="honeypot" style="display: none;">
+                                            <form method="post"  class="form_submission form-get-quote" id="contact-form" action="/leads/">
+                                                
+                                                <input type="text" name="honeypot" style="display: none;">
                                                  <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
