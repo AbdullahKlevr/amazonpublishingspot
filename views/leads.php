@@ -24,7 +24,7 @@ $data=array(
     'price'=> $price,
     'domain' => $domain
 );
-if($_REQUEST["gender"] != ""){
+if($_REQUEST["news"] != ""){
     header("location: /");
     exit();
 }

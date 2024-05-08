@@ -45,7 +45,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-box">
+                                    <!-- <div class="form-box">
                                         <img src="images/blacklogo.png" class="img-fluid logoimg">
                                         <h2 style="color:#000;font-size:40px;">Create account</h2>
                                         <div class="default-form">
@@ -79,12 +79,7 @@
                                                             <input type="text" class="phoneNum" name="phone" required>
                                                         </div>
                                                     </div>
-                                                    <!--<div class="form-group col-lg-12 col-md-12 col-sm-12">-->
-                                                    <!--    <div class="field-inner">-->
-                                                    <!--        <label>Password</label>-->
-                                                    <!--        <input type="password"  name="quote[Password]"   placeholder="At least 6 characters"  required>-->
-                                                    <!--    </div>-->
-                                                    <!--</div>-->
+                                                    
                                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                                         <div class="field-inner">
                                                             <label>Services</label>
@@ -104,13 +99,8 @@
                                                         </div>
                                                     </div>
                                                     <input type="hidden" name="brief" value="No Message">
-                                                    <!--<div class="form-group col-lg-12 col-md-12 col-sm-12">-->
-                                                    <!--    <div class="field-inner">-->
-                                                    <!--        <label>Message</label>-->
-                                                    <!--        <textarea name="brief" class="form-control"></textarea>-->
-                                                    <!--    </div>-->
-                                                    <!--</div>-->
                                                    
+                                                    <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
                                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                                         <button type="submit" class="accountbtn">Create your KDP account</button>
                                                     </div>
@@ -125,13 +115,11 @@
                                                         <p>By creating an account, you agree to Amazon's <a style="color:#007bff; font-weight:bold;" href="terms-and-condition/">Conditions of Use.</a> You can find the privacy notice that applies to you here. </p>
                                                         
                                                     </div>
-                                                    <!--<div class="form-group accountpara col-lg-12 col-md-12 col-sm-12">-->
-                                                    <!--    <p>By creating an account, you agree to Amazon Publishing Spot  <a href="terms-and-condition.php">Conditions of Use.</a> You can find the privacy notice that applies to you here.</p>-->
-                                                    <!--</div>-->
+                                                    
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -177,13 +165,13 @@
                 </div>
             </div>
             <!-- banner-end -->
-            <section id="form-sec">
+            <!-- <section id="form-sec">
                 <div class="container">
                     <div class="row">
                         <div class="form-txt">
                             <h2>Sign up Now with Amazon Publishing Spot  to Get Our <strong>Limited Time Offer</strong> </h2>
                         </div>
-                        <!-- btn form-btn -->
+                        
                         <form method="POST" class="form-get-quote form_submission" action="/leads/"><input type="text" name="route" style="display: none;">
                              <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
@@ -232,11 +220,11 @@
                                 </div>
                                 
                             </div>
-                            <!--<input type="text" name="quote[ip]" hidden value="119.73.97.7">-->
+                            <input type="text" name="quote[ip]" hidden value="119.73.97.7">
                         </form>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- form-sec -->
             <!-- form-sec -->
             <section id="lp-writing">
