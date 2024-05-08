@@ -77,7 +77,7 @@
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
+route
            <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
                             <img src="lp-images/banner/e1.webp" class="el e1" loading="eager" width="100px"
                                 height="100px">
