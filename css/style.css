@@ -264,7 +264,7 @@ body a:focus {
 }
 
 .logo-area img {
-    width: 85px;
+    /* width: 85px; */
     position: relative;
 }
 
@@ -4662,7 +4662,7 @@ body .web-pckgs .home-packg-box1.home-packg-box-s1 {
 }
 
 #banner.banneroad01.bms {
-    background: linear-gradient(300deg, #b43965 0, #d1577e 100%);
+    background-color: #a0581b;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat

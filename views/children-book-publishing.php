@@ -33,7 +33,7 @@
                                 <a href="javascript:;" class="header-btn"  aria-label="phone"><i class="fa fa-comment"></i> <span>Live Chat</span></a>
                             </li>
                             <li>
-                                <a href="tel:+7272737217" class="header-btn bordered"  aria-label="phone"><i class="fa fa-phone"></i> <span>+ (727) 273-7217</span></a>
+                                <a href="tel:3235914113" class="header-btn bordered"  aria-label="phone"><i class="fa fa-phone"></i> <span>+ (323) 591-4113</span></a>
                             </li>
                         </ul>
                     </div>
@@ -71,7 +71,7 @@
 
                     </div>
                     <div class="col-lg-5 offset-lg-1">
-                        <form class="ban-form" method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                        <form class="ban-form" method="POST" action="/leads"><input type="text" name="route" style="display: none;">
                         <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
 <input type="hidden" name="token" value="<?= $token; ?>">
@@ -129,7 +129,7 @@
                             Live Chat
                         </a>
                         <a href="javascript:;" class="theme-btn bordered ">
-                            + (727) 273-7217
+                            + (323) 591-4113
                         </a>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                             <a href="javascript:;" class="theme-btn  bordered" onclick="setButtonURL();">Live
                                 Chat</a>
                             <a href="" class="theme-btn  bordered"><i class="fa fa-phone"></i>
-                                + (727) 273-7217</a>
+                                + (323) 591-4113</a>
                         </div>
                     </div>
                 </div>
@@ -260,7 +260,7 @@
                     <div class="btn-wrap justify-content-center">
                         <a href="javascript:;" class="theme-btn popstatic">Let’s Get Started</a>
                         <a href="javascript:;" class="theme-btn bordered "><i class="fa fa-phone"></i>
-                            + (727) 273-7217</a>
+                            + (323) 591-4113</a>
                     </div>
                     <div class="rating">
                         We are rated 4.5
@@ -354,7 +354,7 @@
                     <div class="btn-wrap c2 justify-content-center">
                         <a href="javascript:;" class="theme-btn popstatic">Let’s Get Started</a>
                         <a href="javascript:;" class="theme-btn bordered "><i class="fa fa-phone"></i>
-                            + (727) 273-7217</a>
+                            + (323) 591-4113</a>
                     </div>
                 </div>
             </div>
@@ -421,7 +421,7 @@
                             <a href="javascript:;" class="theme-btn  bordered" onclick="setButtonURL();">Live
                                 Chat</a>
                             <a href="" class="theme-btn  bordered"><i class="fa fa-phone"></i>
-                                + (727) 273-7217</a>
+                                + (323) 591-4113</a>
                         </div>
                     </div>
                 </div>
@@ -504,7 +504,7 @@
                         <a href="javascript:;" class="theme-btn  bordered" onclick="setButtonURL();">Live
                             Chat</a>
                         <a href="" class="theme-btn  bordered"><i class="fa fa-phone"></i>
-                            + (727) 273-7217</a>
+                            + (323) 591-4113</a>
                     </div>
                 </div>
             </div>
@@ -695,7 +695,7 @@
                             <a href="javascript:;" class="theme-btn  bordered" onclick="setButtonURL();">Live
                                 Chat</a>
                             <a href="" class="theme-btn  bordered"><i class="fa fa-phone"></i>
-                                + (727) 273-7217</a>
+                                + (323) 591-4113</a>
                         </div>
                     </div>
                 </div>

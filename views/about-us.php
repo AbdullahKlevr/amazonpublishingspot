@@ -13,7 +13,7 @@
         
 
 
-        <title>About Us | Amazon Publishing Spot </title>
+        <title>About Us | Worldwide Publisher </title>
     </head>
     <body class="">
         <!-- top-header -->
@@ -44,6 +44,9 @@
             <!-- banner-end -->
             <!-- form-sec -->
             <!-- form-sec -->
+
+
+
             <div class="bottomSec">
                 <div class="container">
                     <div class="row">
@@ -81,12 +84,44 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="reviewlinks container p-5">
+    <div class="row">
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+            <a href="https://www.trustpilot.com/review/worldwidepublisher.com">
+                <img src="/assets/images/0.png" class="img-fluid mb-4" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+            <a href="https://www.reviews.io/company-reviews/store/worldwidepublisher.com-nwz4rda">
+                <img src="/assets/images/1.png" class="img-fluid mb-4" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+            <a href="https://www.provenexpert.com/en-us/worldwide-publisher/?mode=preview">
+                <img src="/assets/images/2.png" class="img-fluid mb-4" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+            <a href="https://www.bark.com/en/us/company/worldwide-publisher/bRP71/">
+                <img src="/assets/images/3.png" class="img-fluid mb-4" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
             <section class="helpsec">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 my-auto">
                             <h2 class="main-heading">We're Meticulously Sculpting Your Book Writing Journey</h2>
-                            <p class="main-para">Amazon Publishing Spot  is a leading support for storytellers. Whether it is your autobiography, a work of fiction, or a work of history, we bring your vision to life in the form of a meticulously written and published book. <br>
+                            <p class="main-para">Worldwide Publisher  is a leading support for storytellers. Whether it is your autobiography, a work of fiction, or a work of history, we bring your vision to life in the form of a meticulously written and published book. <br>
                                 <br> We have a team of highly experienced bookworms who are experts in their respective disciplines. We delivered thousands of successful, meticulously written, designed, edited, and published publications. In addition, many of our clients have become best-selling authors as a result of our excellence.
                             </p>
                         </div>
@@ -248,7 +283,7 @@
                                     </li>
                                 </ul>
                                 <h6>Do you want to get Genre-specific Book Services?</h6>
-                                <span>Give us a call <a href="tel:+7272737217">Toll Free (727) 273-7217</a>
+                                <span>Give us a call <a href="tel:3235914113">Toll Free (323) 591-4113</a>
                                 </span>
                             </div>
                         </div>
@@ -266,7 +301,7 @@
                             <p>We'll turn your thoughts into a carefully crafted and critically acclaimed book</p>
                         </div>
                         <div class="cta-btn">
-                            <a href="tel:+7272737217" class="cta-btn-1">Call Us (727) 273-7217</a>
+                            <a href="tel:3235914113" class="cta-btn-1">Call Us (323) 591-4113</a>
                             <a href="javascript:;" onclick="LiveChatWidget.call('maximize');return false;" class="cta-btn-2 liveChat">Live Chat</a>
                             <a href="javascript:;" class="cta-btn-3 order_button2">Get A Quote</a>
                         </div>
@@ -279,14 +314,24 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="sample-txt contact-txt-sec">
-                            <h2>Send Us a Message</h2>
-                            <p>Please fill out your details, and our team will contact you soon.</p>
+                            <h2 style="color:black;">Send Us a Message</h2>
+                            <p style="color:black;">Please fill out your details, and our team will contact you soon.</p>
                         </div>
                         <div class="contact-box col-md-8">
-                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads"><input type="text" name="route" style="display: none;">
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
+<?php
+// Check if session is already started
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Generate a token or use existing token
+$token = $_SESSION['token'] ?? bin2hex(random_bytes(16));
+?>
 <input type="hidden" name="token" value="<?= $token; ?>">
+
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
 <input type="hidden" name="news" value="1">
@@ -348,11 +393,11 @@
                                 </div>
                                 <div class="col-lg col-b-2">
                                     <p>Make a Call</p>
-                                    <a href="tel:+7272737217" class="con-cta-btn ct-b2"> (727) 273-7217</a>
+                                    <a href="tel:3235914113" class="con-cta-btn ct-b2"> (323) 591-4113</a>
                                 </div>
                                 <div class="col-lg p0 col-b-3">
                                     <p>Send us Email</p>
-                                    <a href="mailto:info@amazonpublishingspot.com" class="con-cta-btn ct-b3">info@amazonpublishingspot.com</a>
+                                    <a href="mailto:info@worldwidepublisher.com" class="con-cta-btn ct-b3">info@worldwidepublisher.com</a>
                                 </div>
                             </div>
                         </div>
@@ -451,7 +496,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="copy-txt">
-                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Amazon Publishing Spot  . All Rights Reserved. </p>
+                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Worldwide Publisher  . All Rights Reserved. </p>
                         </div>
                     </div>
                     <div class="col-md-4"></div>
@@ -470,7 +515,7 @@
                     <div class="banner-inner-tr">
                         <img src="images/50-off.png">
                     </div>
-                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                    <form  class="form_submission form-get-quote" method="POST" action="/leads"><input type="text" name="route" style="display: none;">
                         <input type="hidden" name="url" value='about-us.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -498,7 +543,7 @@
                             <div class="col-lg">
                                 <select name="service" data-name="service" class="classic form-control">
                                     <optgroup label="&nbsp; Select A Service">
-                                        <option value="Select A Service"></option>
+                                        <option value="none">Select A Service</option>
                                         <option value="Book Writing " data-amt="16" data-deadline="1">Book Writing </option>
                                         <option value="Book Marketing " data-amt="16" data-deadline="1">Book Marketing</option>
                                         <option value="Book Cover Design" data-amt="50" data-deadline="1">Book Cover Design </option>
@@ -508,11 +553,11 @@
                                     </optgroup>
                                 </select>
                             </div>
-                            <div class="col-lg agree-two">
+                            <!-- <div class="col-lg agree-two">
                                 <input name="quote[check]" type="checkbox" id="test2">
                                 <label for="test2">I Agree to <a href="terms-and-condition-2/">Terms of Use</a> and the <a href="privacy-policy/">Privacy Policy.</a>
                                 </label>
-                            </div>
+                            </div> -->
                             <div class="col-lg bnr-form-btn">
                               
                                 <span class="form-extra-data"></span>
@@ -537,22 +582,22 @@
         </section>
         <div class="floatbutton">
             <div class="btns_wrap">
-                <a href="javascript:void(Tawk_API.toggle())" class="chat_wrap liveChat">
+                <a href="javascript:;" onclick="LiveChatWidget.call('maximize');" class="chat_wrap liveChat">
                     <span class="icoo">
                         <i class="fa fa-comment"></i>
                     </span>
                     <span>Chat With Us</span>
                 </a>
-                <a href="tel:+7272737217" class="call_wrap">
+                <a href="tel:3235914113" class="call_wrap">
                     <span class="icoo">
                         <i class="fa fa-phone"></i>
                     </span>
-                    <span> (727) 273-7217</span>
+                    <span> (323) 591-4113</span>
                 </a>
             </div>
             <div class="clickbutton">
                 <div class="crossplus">
-                    <a href="javascript:;" onclick="LiveChatWidget.call('maximize');return false;" class="text-white"> Start A Live Chat</a>
+                    <a href="javascript:;" onclick="LiveChatWidget.call('maximize');"return false;" class="text-white"> Start A Live Chat</a>
                 </div>
             </div>
         </div>
@@ -570,7 +615,7 @@
                     <div class="modal-body text-center  pt-0 pb-4 pr-4 pl-4">
                         <h4 class="mb-2">Activate this offer to avail Exclusive Discounts</h4>
                         <h3 class="mb-4 font-large" style="font-size: 28px;">LAST 3 COUPONS LEFT</h3>
-                        <form  method="POST" action="/leads/" class="form_submission form-get-quote">
+                        <form  method="POST" action="/leads" class="form_submission form-get-quote">
                             <input type="hidden" name="url" value='about-us.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">

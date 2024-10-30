@@ -13,7 +13,7 @@
         
 
 
-        <title>Home | Amazon Publishing Spot </title>
+        <title>Home | Worldwide Publisher </title>
     </head>
     <body class="">
         <!-- top-header -->
@@ -34,94 +34,138 @@
                                 <div class="col-md-6">
                                     <div class="bnr-txt ptop">
                                         <h4>Self Publishing Company</strong> </h4>
-                                        <h2>Let's Get Amazon Publishing Services!
+                                        <h2>Let's Get Worldwide Publisher Services!
 </h2>
-                                        <p> Don't make your manuscript wait – get Kindle self publishing with Amazon Publishing Spot  –  <strong>It's easy and ROI-positive.</strong> </p>
+                                        <p> Don't make your manuscript wait – get Kindle self publishing with Worldwide Publisher  –  <strong>It's easy and ROI-positive.</strong> </p>
+                                    
                                     </div>
                                     <div class="cta-btn btnres">
                                         <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btnres1 for-m">Get A Quote</a>
                                         <a href="javascript:;" onclick="LiveChatWidget.call('maximize');return false;" class="btn btnres2 res22 for-mm">Get Started</a>
                                         
                                     </div>
+
+
+                                    <!-- <div class="row mt-5">
+                                            <div class="col-md-3"> <a href="https://www.trustpilot.com/review/worldwidepublisher.com">
+                                            <img src="/assets/images/trustpilot.png" class="w-75" alt=""></a>
+                                            </div>
+                                            <div class="col-md-3 ">
+                                                <a href="https://www.reviews.io/company-reviews/store/worldwidepublisher.com-nwz4rda">
+                                                    <img src="/assets/images/reviewsio-logo.webp" class="w-75 " alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="">
+                                                    <img src="/assets/images/provenexpert.jpg" class="w-75" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3"></div>
+                                            
+                                        </div> -->
+
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-box">
-                                        <img src="images/blacklogo.png" class="img-fluid logoimg">
-                                        <h2 style="color:#000;font-size:40px;">Create account</h2>
-                                        <div class="default-form">
-                                            <form method="post"  class="form_submission form-get-quote" id="contact-form" action="/leads/">
-                                                
-                                                <input type="text" name="route" style="display: none;">
-                                                 <input type="hidden" name="url" value='index.html'>
-           <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
-<input type="hidden" name="token" value="<?= $token; ?>">
-<input type="hidden" name="tag" value="top-form">
-<input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
-           <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
-                                                <div class="row clearfix">
-                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                        <div class="field-inner">
-                                                            <label>Your name</label>
-                                                            <input type="text" name="name" value="" placeholder="First and last name" onkeydown="return /^[A-Za-z\s]+$/.test(event.key)" required>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                        <div class="field-inner">
-                                                            <label>Email</label>
-                                                            <input type="email" name="email" required>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                        <div class="field-inner">
-                                                            <label>Phone</label>
-                                                            <input type="text" class="phoneNum" name="phone" required>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                        <div class="field-inner">
-                                                            <label>Services</label>
-                                                            <select class="form-control" name="service" data-name="service" id="exampleFormControlSelect1" required>
-                                                                <option value="">Services</option>
-                                                                <option value="Book Writing">Book Writing </option>
-                                                                <option value=" E-book Writing & Publishing"> E-book Writing & Publishing</option>
-                                                                <option value="Book Editing & Proofreading">Book Editing & Proofreading</option>
-                                                                <option value=" Book Cover Design"> Book Cover Design </option>
-                                                                <option value="  Book Illustrations">Book Illustrations </option>
-                                                                <option value="  Book Publishing ">Book Publishing </option>
-                                                                <option value="Book Printing">Book Printing </option>
-                                                                <option value="Book Marketing">Book Marketing</option>
-                                                                <option value="Author Website">Author Website</option>
-                                                                <option value=" Amazon Publishing ">Amazon Publishing </option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <input type="hidden" name="brief" value="No Message">
-                                                   
-                                                    <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
-                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                                        <button type="submit" class="accountbtn">Create your KDP account</button>
-                                                    </div>
-                                                         <div class="col-md-12 col-xs-12">
-                <div class="error mt-3 alert alert-danger text-left mb-0" style="display: none"></div>
-                <div class="success mt-3 alert alert-success text-center mb-0 p-2" style="display: none"></div>
-                <div class="loader" style="display: none">
-                    <img alt="loader" src="images/loader.gif">
+                                <div class="form-box">
+    <h2 style="color:#000;font-size:40px;">Create Account</h2>
+    <div class="default-form">
+        <form method="post" id="contact-form" action="/leads">
+            <input type="hidden" name="brand" value="WorldWide">
+            <?php
+                // Start session and generate token
+                if (session_status() === PHP_SESSION_NONE) {
+                    session_start();
+                }
+                $token = $_SESSION['token'] ?? bin2hex(random_bytes(16));
+            ?>
+            <input type="hidden" name="token" value="<?= $token; ?>">
+            <input type="hidden" name="tag" value="top-form">
+            <input type="hidden" name="price" value="null">
+            <input type="hidden" name="news" value="1">
+            <input type="hidden" name="subject" value="Banner Form (Worlwide Publisher)">
+            <div class="row clearfix">
+                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                    <div class="field-inner">
+                        <label>Your name</label>
+                        <input type="text" name="name" placeholder="First and last name" onkeydown="return /^[A-Za-z\s]+$/.test(event.key)" required>
+                    </div>
                 </div>
+                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                    <div class="field-inner">
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                    <div class="field-inner">
+                        <label>Phone</label>
+                        <input type="text" class="phoneNum" name="phone" required>
+                    </div>
+                </div>
+                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                    <div class="field-inner">
+                        <label>Services</label>
+                        <select class="form-control" name="service" required>
+                            <option value="">Services</option>
+                            <option value="Book Writing">Book Writing</option>
+                            <option value="E-book Writing & Publishing">E-book Writing & Publishing</option>
+                            <option value="Book Editing & Proofreading">Book Editing & Proofreading</option>
+                            <option value="Book Cover Design">Book Cover Design</option>
+                            <option value="Book Illustrations">Book Illustrations</option>
+                            <option value="Book Publishing">Book Publishing</option>
+                            <option value="Book Printing">Book Printing</option>
+                            <option value="Book Marketing">Book Marketing</option>
+                            <option value="Author Website">Author Website</option>
+                            <option value="Amazon Publishing">Amazon Publishing</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="hidden" name="brief" value="No Message">
+                <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                <input type="hidden" name="lb_source" value="Organic">
+                <input type="hidden" name="ip2loc_ip" value="">
+                <input type="hidden" name="ip2loc_country" value="">
+                <input type="hidden" name="ip2loc_region" value="">
+                <input type="hidden" name="ip2loc_city" value="">
+                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                    <button type="submit" class="accountbtn">Get Started</button>
+                </div>
+                <!-- <div class="form-group accountpara col-lg-12 col-md-12 col-sm-12">
+                    <p>By creating an account, you agree to Amazon's <a style="color:#007bff; font-weight:bold;" href="terms-and-condition/">Conditions of Use.</a> You can find the privacy notice that applies to you here.</p>
+                </div> -->
             </div>
-                                                    <div class="form-group accountpara col-lg-12 col-md-12 col-sm-12">
-                                                        <p>By creating an account, you agree to Amazon's <a style="color:#007bff; font-weight:bold;" href="terms-and-condition/">Conditions of Use.</a> You can find the privacy notice that applies to you here. </p>
-                                                        
-                                                    </div>
-                                                    
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
+        </form>
+    </div>
+</div>
+
                             </div>
+
+                        
+                            <div class="row   mt-5 ">
+    <div class="col-md-3"><a href="https://www.trustpilot.com/review/worldwidepublisher.com">
+<img src="/assets/images/1235.png" class="mt-2" style="width:130px; object-fit:contain;" alt=""></a>
+</div>
+<div class="col-md-3"><a href="https://www.reviews.io/company-reviews/store/worldwidepublisher.com-nwz4rda">
+                                                    <img src="/assets/images/TD.png" style="width:130px;object-fit:contain;" alt="">
+                                                </a></div>
+
+<div class="col-md-3">
+<a href="https://www.provenexpert.com/en-us/worldwide-publisher/?mode=preview">
+                                                    <img src="/assets/images/123.png" style="width:130px; object-fit:contain;" class="" alt="">
+                                                </a>
+</div>
+
+                         <div class="col-md-3">
+                         <a href="https://www.bark.com/en/us/company/worldwide-publisher/bRP71/">
+                                                    <img src="/assets/images/14.png" style="width:130px; object-fit:contain;" alt="">
+                                                </a>
+                         </div>                      
+                                               
+
+</div>
+
+                            </div>
+                          
                         </div>
                     </div>
             </section>
@@ -169,7 +213,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="form-txt">
-                            <h2>Sign up Now with Amazon Publishing Spot  to Get Our <strong>Limited Time Offer</strong> </h2>
+                            <h2>Sign up Now with Worldwide Publisher  to Get Our <strong>Limited Time Offer</strong> </h2>
                         </div>
                         
                         <form method="POST" class="form-get-quote form_submission" action="/leads/"><input type="text" name="route" style="display: none;">
@@ -180,7 +224,7 @@
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
 <input type="hidden" name="news" value="1">
-           <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
+           <input type="hidden" name="subject" value="Banner Form (authorseclipse.com)">
            <input type="hidden" name="brief">
            
                             <div class="form-div" style="margin:25px 0 0;">
@@ -227,14 +271,21 @@
             </section> -->
             <!-- form-sec -->
             <!-- form-sec -->
+
+
+<section>
+    
+</section>
+
+
             <section id="lp-writing">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h2>Amazon Publishing Services Tailored To Your Desired Needs.</h2>
+                            <h2>Worldwide Publisher Services Tailored To Your Desired Needs.</h2>
                             <br>
                             <div class="inner-txt-p">
-                                <p>We're here to assist you in the best possible manner. We provide entire book writing, editing, book marketing, and Amazon publishing services:</p>
+                                <p>We're here to assist you in the best possible manner. We provide entire book writing, editing, book marketing, and Worldwide Publisher services:</p>
                                 <ul class="link">
                                     <li>	Book Ghostwriting Services</li>
                                     <li>	Book Cover Design</li>
@@ -269,8 +320,8 @@
             <div class="reviews-row">
                 <div class="col-md-12">
                     <div class="write-txt">
-                        <h1><Strong>Amazon Publishing Spot  Premium Book Services</Strong></h1>
-                        <p>Amazon Publishing Spot  provides top quality, custom-tailored solutions for all your Book
+                        <h1><Strong>Worldwide Publisher  Premium Book Services</Strong></h1>
+                        <p>Worldwide Publisher  provides top quality, custom-tailored solutions for all your Book
                             Writing, Editing, Publishing and Marketing needs.</p>
                     </div>
                 </div>
@@ -298,7 +349,7 @@
                                 <h3>Book Editing</h3>
 
                                 <p class="list-scroll">Whether you are an internationally acclaimed author or a newbie,
-                                    you need a fresh pair of eyes to go through your manuscript. At Amazon Publishing Spot ,
+                                    you need a fresh pair of eyes to go through your manuscript. At Worldwide Publisher ,
                                     our team of editors ensure your manuscript is completley error-free, grammatically
                                     correct and of a publishable quality. We house genre and niche-specific experts who
                                     critically assess your work, identify areas of improvement and provide constructive
@@ -316,7 +367,7 @@
 
                                 <p class="list-scroll">A well-published book is critical to your success as an author.
                                     Even though you worked hard on the manuscript, your book may not get the attention
-                                    it deserves without proper publishing. Amazon Publishing Spot  will help you provide the
+                                    it deserves without proper publishing. Worldwide Publisher  will help you provide the
                                     best possible reading experience for your book’s target audience. </p>
 
                                 <a href="book-publishing/index/" class="read-txt">Read More</a>
@@ -357,11 +408,11 @@
                 <div class="row">
                     <div class="col-md-12 cta-box">
                         <div class="cta-txt cta-txt1">
-                            <h2>Work With a Fantastic Group of <bold>Amazon Publishing Spot </bold> </h2>
-                            <p>Discover the amazing world of books with Amazon Publishing Spot ! Get closer to having your book published on Amazon through Kindle Direct Publishing.</p>
+                            <h2>Work With a Fantastic Group of <bold>Worldwide Publisher </bold> </h2>
+                            <p>Discover the amazing world of books with Worldwide Publisher ! Get closer to having your book published on Amazon through Kindle Direct Publishing.</p>
                         </div>
                         <div class="cta-btn">
-                            <a href="tel:+7272737217" class="cta-btn-1">Call Us (727) 273-7217</a>
+                            <a href="tel:3235914113" class="cta-btn-1">Call Us (323) 591-4113</a>
                             <a href="javascript:;" onclick="LiveChatWidget.call('maximize');return false;" class="cta-btn-2 liveChat">Live Chat</a>
                             <a href="javascript:;" class="cta-btn-3 order_button2">Get A Quote</a>
                         </div>
@@ -377,7 +428,7 @@
 of Your Book?</h2>
                         <br>
                         <div class="inner-txt-p">
-                            <p>Feel free to rely on us. Here at Amazon Publishing Spot , we provide comprehensive services for authors and publishers. Our services include:</p>
+                            <p>Feel free to rely on us. Here at Worldwide Publisher , we provide comprehensive services for authors and publishers. Our services include:</p>
                             <ul>
                                 <li>E-book publication</li>
                                 <li>Branding and publicity</li>
@@ -417,7 +468,7 @@ of Your Book?</h2>
                         <div class="thumbnail review-box">
                             <div class="caption">
                             <h3 class="text-center review-heading">Sincerely,<br> CATHERINE D. NETTER</h3>
-                                <p class="text-center review-text list-scroll">Amazon Publishing Spot 's ghostwriting and publishing services have been an absolute game-changer for me as an author. From the impeccable professionalism of their ghostwriters to the seamless publishing process, every step was a delight. They brought my vision to life with precision and skill, and their user-friendly platform made publishing effortless. Thanks to Amazon Publishing Spot , I now have a beautifully published book that has reached readers worldwide. I highly recommend their services to any author looking for a hassle-free path to success.</p>
+                                <p class="text-center review-text list-scroll">Worldwide Publisher 's ghostwriting and publishing services have been an absolute game-changer for me as an author. From the impeccable professionalism of their ghostwriters to the seamless publishing process, every step was a delight. They brought my vision to life with precision and skill, and their user-friendly platform made publishing effortless. Thanks to Worldwide Publisher , I now have a beautifully published book that has reached readers worldwide. I highly recommend their services to any author looking for a hassle-free path to success.</p>
                                 <ul class="list-group text-left">
                                     <li class="list-group-item">
                                         <span class="text-uppercase">communication</span>
@@ -453,7 +504,7 @@ of Your Book?</h2>
                         <h3 class="text-center review-heading">Sincerely,<br>
 Rita Thompson
 </h3>
-                                <p class="text-center review-text">"I had a remarkable experience with amazonpublishingspot.com for their Editing and Publishing services. As an author, I entrusted them with my manuscript, and I was thoroughly impressed with the level of professionalism and attention to detail they exhibited. The editing process was seamless, with their team providing valuable insights and suggestions that significantly enhanced the quality of my book. The publishing phase was equally impressive, as they guided me through the necessary steps and ensured a smooth and efficient publication. I am grateful for the exceptional services provided by amazonpublishingspot.com, and I highly recommend them to any author in need of top-notch editing and publishing assistance. </p>
+                                <p class="text-center review-text">"I had a remarkable experience with authorseclipse.com for their Editing and Publishing services. As an author, I entrusted them with my manuscript, and I was thoroughly impressed with the level of professionalism and attention to detail they exhibited. The editing process was seamless, with their team providing valuable insights and suggestions that significantly enhanced the quality of my book. The publishing phase was equally impressive, as they guided me through the necessary steps and ensured a smooth and efficient publication. I am grateful for the exceptional services provided by authorseclipse.com, and I highly recommend them to any author in need of top-notch editing and publishing assistance. </p>
                                 <ul class="list-group text-left">
                                     <li class="list-group-item">
                                         <span class="text-uppercase">communication</span>
@@ -489,7 +540,7 @@ Rita Thompson
                              <h3 class="text-center review-heading">Sincerely,<br>
 MARTIE SMITH
 </h3>
-                                <p class="text-center review-text">"I cannot praise Amazon Publishing Spot  enough for their exceptional book illustration, cover design, and marketing services. Their team of talented artists and designers transformed my book into a visual masterpiece, capturing the essence of my story with stunning illustrations and an eye-catching cover. The marketing strategies they implemented propelled my book to new heights, reaching a wide audience and generating significant sales. Thanks to Amazon Publishing Spot , my book now stands out from the crowd, and I am beyond satisfied with the results. If you're an author seeking professional illustrations, captivating cover design, and effective marketing, look no further than Amazon Publishing Spot —they are the key to bringing your book to life and maximizing its success."</p>
+                                <p class="text-center review-text">"I cannot praise Worldwide Publisher  enough for their exceptional book illustration, cover design, and marketing services. Their team of talented artists and designers transformed my book into a visual masterpiece, capturing the essence of my story with stunning illustrations and an eye-catching cover. The marketing strategies they implemented propelled my book to new heights, reaching a wide audience and generating significant sales. Thanks to Worldwide Publisher , my book now stands out from the crowd, and I am beyond satisfied with the results. If you're an author seeking professional illustrations, captivating cover design, and effective marketing, look no further than Worldwide Publisher —they are the key to bringing your book to life and maximizing its success."</p>
                                 <ul class="list-group text-left">
                                     <li class="list-group-item">
                                         <span class="text-uppercase">communication</span>
@@ -525,7 +576,7 @@ MARTIE SMITH
                         <h3 class="text-center review-heading">Sincerely, <br>
 Sean Maze 
 </h3>
-                                <p class="text-center review-text"> "I am thrilled with the Amazon marketing services provided by amazonpublishingspot.com. Their expertise in navigating the Amazon platform has been instrumental in boosting the visibility and sales of my book. With their strategic marketing approach, my book has gained significant exposure to a wider audience, resulting in increased sales and positive reader feedback. The team at amazonpublishingspot.com has been responsive, proactive, and dedicated to maximizing the marketing potential of my book on Amazon. I am grateful for their efforts and highly recommend their Amazon marketing services to any author looking to effectively promote their work on the world's largest online marketplace. </p>
+                                <p class="text-center review-text"> "I am thrilled with the Amazon marketing services provided by authorseclipse.com. Their expertise in navigating the Amazon platform has been instrumental in boosting the visibility and sales of my book. With their strategic marketing approach, my book has gained significant exposure to a wider audience, resulting in increased sales and positive reader feedback. The team at authorseclipse.com has been responsive, proactive, and dedicated to maximizing the marketing potential of my book on Amazon. I am grateful for their efforts and highly recommend their Amazon marketing services to any author looking to effectively promote their work on the world's largest online marketplace. </p>
                                 <ul class="list-group text-left">
                                     <li class="list-group-item">
                                         <span class="text-uppercase">communication</span>
@@ -564,7 +615,7 @@ Sean Maze
                         <h3 class="text-center review-heading">Sincerely, <br>
 AVIRUL ISLAM
 </h3>
-                                <p class="text-center review-text"> "I am extremely pleased with the publishing services provided by amazonpublishingspot.com for my book, from start to finish, their team demonstrated professionalism, expertise, and a genuine commitment to bringing my vision to life. They guided me through the entire publishing process, offering valuable insights and suggestions along the way. The final product surpassed my expectations, with a beautifully designed cover and impeccable formatting. The team's attention to detail and dedication to delivering a high-quality book is evident in every aspect. I am grateful to amazonpublishingspot.com for their outstanding publishing services and would highly recommend them to any author seeking a seamless and successful publishing journey.</p>
+                                <p class="text-center review-text"> "I am extremely pleased with the publishing services provided by authorseclipse.com for my book, from start to finish, their team demonstrated professionalism, expertise, and a genuine commitment to bringing my vision to life. They guided me through the entire publishing process, offering valuable insights and suggestions along the way. The final product surpassed my expectations, with a beautifully designed cover and impeccable formatting. The team's attention to detail and dedication to delivering a high-quality book is evident in every aspect. I am grateful to authorseclipse.com for their outstanding publishing services and would highly recommend them to any author seeking a seamless and successful publishing journey.</p>
                                 <ul class="list-group text-left">
                                     <li class="list-group-item">
                                         <span class="text-uppercase">communication</span>
@@ -601,7 +652,7 @@ AVIRUL ISLAM
                         <h3 class="text-center review-heading">Sincerely, <br>
 Dr. J.K Hudson
 </h3>
-                                <p class="text-center review-text"> "Choosing Kindle Vella through Amazon Publishing Spot  for publishing my work has been a remarkable decision. The platform's user-friendly interface, coupled with its vast reader base, has allowed my stories to captivate a wide audience. The serialized format of Kindle Vella has not only increased reader engagement but also opened doors to new opportunities for my writing career. With Kindle Vella, I have found a supportive community of readers and fellow authors, and the seamless publishing process has given me complete control over my work. I highly recommend Kindle Vella to any author looking to embark on an exciting and rewarding publishing journey.
+                                <p class="text-center review-text"> "Choosing Kindle Vella through Worldwide Publisher  for publishing my work has been a remarkable decision. The platform's user-friendly interface, coupled with its vast reader base, has allowed my stories to captivate a wide audience. The serialized format of Kindle Vella has not only increased reader engagement but also opened doors to new opportunities for my writing career. With Kindle Vella, I have found a supportive community of readers and fellow authors, and the seamless publishing process has given me complete control over my work. I highly recommend Kindle Vella to any author looking to embark on an exciting and rewarding publishing journey.
 
 </p>
                                 <ul class="list-group text-left">
@@ -644,11 +695,11 @@ Dr. J.K Hudson
                 <div class="row">
                     <div class="col-md-12">
                         <div class="sample-txt contact-txt-sec">
-                            <h2>Send Us a Message</h2>
-                            <p>Please fill out your details, and our team will contact you soon.</p>
+                            <h2 style="color:black;">Send Us a Message</h2>
+                            <p style="color:black;">Please fill out your details, and our team will contact you soon.</p>
                         </div>
                         <div class="contact-box col-md-8">
-                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads"><input type="text" name="route" style="display: none;">
                                 <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -656,7 +707,7 @@ Dr. J.K Hudson
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
 <input type="hidden" name="news" value="1">
-           <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
+           <input type="hidden" name="subject" value="Banner Form (authorseclipse.com)">
            
                                 <div class="col-md-12 c-b-div contactbox p0">
                                     <div class="col-md-6">
@@ -714,11 +765,11 @@ Dr. J.K Hudson
                                 </div>
                                 <div class="col-lg col-b-2">
                                     <p>Make a Call</p>
-                                    <a href="tel:+7272737217" class="con-cta-btn ct-b2"> (727) 273-7217</a>
+                                    <a href="tel:3235914113" class="con-cta-btn ct-b2"> (323) 591-4113</a>
                                 </div>
                                 <div class="col-lg p0 col-b-3">
                                     <p>Send us Email</p>
-                                    <a href="mailto:info@amazonpublishingspot.com" class="con-cta-btn ct-b3">info@amazonpublishingspot.com</a>
+                                    <a href="mailto:info@worldwidepublisher.com" class="con-cta-btn ct-b3">info@worldwidepublisher.com</a>
                                 </div>
                             </div>
                         </div>
@@ -791,6 +842,12 @@ Dr. J.K Hudson
                                     <i class="fa fa-caret-right" aria-hidden="true"></i>
                                     <a href="contact-us/" data-toggle="modal" data-target="#exampleModal">Contact Us</a>
                                 </li>
+                                <li>
+                                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                <a href="privacy/">Privacy Policy</a></li>
+                                <li>
+                                <i class="fa fa-caret-right" aria-hidden="true"></i>    
+                                <a href="terms/">Terms &amp; Conditions</a></li>
                             </ul>
                             <!-- <p>
                                 <span class="fa fa-map-marker" style="padding: 5px;"></span>One Pierrepont Plaza Brooklyn, NY 11201, US                            </p> -->
@@ -816,7 +873,7 @@ Dr. J.K Hudson
                 <div class="row">
                     <div class="col-md-4">
                         <div class="copy-txt">
-                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Amazon Publishing Spot  . All Rights Reserved. </p>
+                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Worldwide Publisher  . All Rights Reserved. </p>
                         
                         </div>
                     </div>
@@ -845,7 +902,7 @@ Dr. J.K Hudson
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
 <input type="hidden" name="news" value="1">
-           <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
+           <input type="hidden" name="subject" value="Banner Form (authorseclipse.com)">
            <input type="hidden" name="brief">
            
                         <div class="form-div">
@@ -865,7 +922,7 @@ Dr. J.K Hudson
                             <div class="col-lg">
                                 <select name="service" data-name="service" class="classic form-control">
                                     <optgroup label="&nbsp; Select A Service">
-                                        <option value="Select A Service"></option>
+                                        <option value="none">Select A Service</option>
                                         <option value="Book Writing " data-amt="16" data-deadline="1">Book Writing </option>
                                         <option value="Book Marketing " data-amt="16" data-deadline="1">Book Marketing</option>
                                         <option value="Book Cover Design" data-amt="50" data-deadline="1">Book Cover Design </option>
@@ -875,11 +932,11 @@ Dr. J.K Hudson
                                     </optgroup>
                                 </select>
                             </div>
-                            <div class="col-lg agree-two">
+                            <!-- <div class="col-lg agree-two">
                                 <input name="quote[check]" type="checkbox" id="test2">
                                 <label for="test2">I Agree to <a href="terms-and-condition-2/">Terms of Use</a> and the <a href="privacy-policy/">Privacy Policy.</a>
                                 </label>
-                            </div>
+                            </div> -->
                             <div class="col-lg bnr-form-btn">
                               
                                 <span class="form-extra-data"></span>
@@ -911,11 +968,11 @@ Dr. J.K Hudson
                     </span>
                     <span>Chat With Us</span>
                 </a>
-                <a href="tel:+7272737217" class="call_wrap">
+                <a href="tel:3235914113" class="call_wrap">
                     <span class="icoo">
                         <i class="fa fa-phone"></i>
                     </span>
-                    <span> (727) 273-7217</span>
+                    <span> (323) 591-4113</span>
                 </a>
             </div>
             <div class="clickbutton">
@@ -938,7 +995,7 @@ Dr. J.K Hudson
                     <div class="modal-body text-center  pt-0 pb-4 pr-4 pl-4">
                         <h4 class="mb-2">Activate this offer to avail Exclusive Discounts</h4>
                         <h3 class="mb-4 font-large" style="font-size: 28px;">LAST 3 COUPONS LEFT</h3>
-                        <form  method="POST" action="/leads/" class="form_submission form-get-quote">
+                        <form  method="POST" action="/leads" class="form_submission form-get-quote">
                             <input type="hidden" name="url" value='index.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -946,7 +1003,7 @@ Dr. J.K Hudson
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
 <input type="hidden" name="news" value="1">
-           <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
+           <input type="hidden" name="subject" value="Banner Form (authorseclipse.com)">
            
                             <div class="row">
                                 <div class="col-lg-12">

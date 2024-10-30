@@ -13,7 +13,7 @@
         
 
 
-        <title>Testimonials | Amazon Publishing Spot </title>
+        <title>Testimonials | Worldwide Publisher </title>
     </head>
     <body class="">
         <!-- top-header -->
@@ -89,7 +89,7 @@
                                 <div class="thumbnail review-box">
                                     <div class="caption">
                                         <h3 class="text-center review-heading">Sincerely, <br> CATHERINE D. NETTER</h3>
-                                        <p class="text-center review-text list-scroll">"Amazon Publishing Spot 's ghostwriting and publishing services have been an absolute game-changer for me as an author. From the impeccable professionalism of their ghostwriters to the seamless publishing process, every step was a delight. They brought my vision to life with precision and skill, and their user-friendly platform made publishing effortless. Thanks to Amazon Publishing Spot , I now have a beautifully published book that has reached readers worldwide. I highly recommend their services to any author looking for a hassle-free path to success.</p>
+                                        <p class="text-center review-text list-scroll">"Worldwide Publisher 's ghostwriting and publishing services have been an absolute game-changer for me as an author. From the impeccable professionalism of their ghostwriters to the seamless publishing process, every step was a delight. They brought my vision to life with precision and skill, and their user-friendly platform made publishing effortless. Thanks to Worldwide Publisher , I now have a beautifully published book that has reached readers worldwide. I highly recommend their services to any author looking for a hassle-free path to success.</p>
                                         <ul class="list-group text-left">
                                             <li class="list-group-item">
                                                 <span class="text-uppercase">communication</span>
@@ -125,7 +125,7 @@
                                         <h3 class="text-center review-heading">Sincerely,<br> 
 Rita Thompson
 </h3>
-                                        <p class="text-center review-text">"I had a remarkable experience with amazonpublishingspot.com for their Editing and Publishing services. As an author, I entrusted them with my manuscript, and I was thoroughly impressed with the level of professionalism and attention to detail they exhibited. The editing process was seamless, with their team providing valuable insights and suggestions that significantly enhanced the quality of my book. The publishing phase was equally impressive, as they guided me through the necessary steps and ensured a smooth and efficient publication. I am grateful for the exceptional services provided by amazonpublishingspot.com, and I highly recommend them to any author in need of top-notch editing and publishing assistance.</p>
+                                        <p class="text-center review-text">"I had a remarkable experience with authorseclipse.com for their Editing and Publishing services. As an author, I entrusted them with my manuscript, and I was thoroughly impressed with the level of professionalism and attention to detail they exhibited. The editing process was seamless, with their team providing valuable insights and suggestions that significantly enhanced the quality of my book. The publishing phase was equally impressive, as they guided me through the necessary steps and ensured a smooth and efficient publication. I am grateful for the exceptional services provided by authorseclipse.com, and I highly recommend them to any author in need of top-notch editing and publishing assistance.</p>
                                         <ul class="list-group text-left">
                                             <li class="list-group-item">
                                                 <span class="text-uppercase">communication</span>
@@ -163,7 +163,7 @@ Rita Thompson
                                         <h3 class="text-center review-heading">Sincerely, <br>
 MARTIE SMITH
 </h3>
-                                        <p class="text-center review-text">"I cannot praise Amazon Publishing Spot  enough for their exceptional book illustration, cover design, and marketing services. Their team of talented artists and designers transformed my book into a visual masterpiece, capturing the essence of my story with stunning illustrations and an eye-catching cover. The marketing strategies they implemented propelled my book to new heights, reaching a wide audience and generating significant sales. Thanks to Amazon Publishing Spot , my book now stands out from the crowd, and I am beyond satisfied with the results. If you're an author seeking professional illustrations, captivating cover design, and effective marketing, look no further than Amazon Publishing Spot —they are the key to bringing your book to life and maximizing its success."</p>
+                                        <p class="text-center review-text">"I cannot praise Worldwide Publisher  enough for their exceptional book illustration, cover design, and marketing services. Their team of talented artists and designers transformed my book into a visual masterpiece, capturing the essence of my story with stunning illustrations and an eye-catching cover. The marketing strategies they implemented propelled my book to new heights, reaching a wide audience and generating significant sales. Thanks to Worldwide Publisher , my book now stands out from the crowd, and I am beyond satisfied with the results. If you're an author seeking professional illustrations, captivating cover design, and effective marketing, look no further than Worldwide Publisher —they are the key to bringing your book to life and maximizing its success."</p>
                                         <ul class="list-group text-left">
                                             <li class="list-group-item">
                                                 <span class="text-uppercase">communication</span>
@@ -199,7 +199,7 @@ MARTIE SMITH
                                         <h3 class="text-center review-heading">Sincerely, <br>
 Sean Maze 
 </h3>
-                                        <p class="text-center review-text"> "I am thrilled with the Amazon marketing services provided by amazonpublishingspot.com. Their expertise in navigating the Amazon platform has been instrumental in boosting the visibility and sales of my book. With their strategic marketing approach, my book has gained significant exposure to a wider audience, resulting in increased sales and positive reader feedback. The team at amazonpublishingspot.com has been responsive, proactive, and dedicated to maximizing the marketing potential of my book on Amazon. I am grateful for their efforts and highly recommend their Amazon marketing services to any author looking to effectively promote their work on the world's largest online marketplace.</p>
+                                        <p class="text-center review-text"> "I am thrilled with the Amazon marketing services provided by authorseclipse.com. Their expertise in navigating the Amazon platform has been instrumental in boosting the visibility and sales of my book. With their strategic marketing approach, my book has gained significant exposure to a wider audience, resulting in increased sales and positive reader feedback. The team at authorseclipse.com has been responsive, proactive, and dedicated to maximizing the marketing potential of my book on Amazon. I am grateful for their efforts and highly recommend their Amazon marketing services to any author looking to effectively promote their work on the world's largest online marketplace.</p>
                                         <ul class="list-group text-left">
                                             <li class="list-group-item">
                                                 <span class="text-uppercase">communication</span>
@@ -237,7 +237,7 @@ Sean Maze
                                         <h3 class="text-center review-heading">Sincerely, <br>
 AVIRUL ISLAM
 </h3>
-                                        <p class="text-center review-text list-scroll">I am extremely pleased with the publishing services provided by amazonpublishingspot.com for my book, from start to finish, their team demonstrated professionalism, expertise, and a genuine commitment to bringing my vision to life. They guided me through the entire publishing process, offering valuable insights and suggestions along the way. The final product surpassed my expectations, with a beautifully designed cover and impeccable formatting. The team's attention to detail and dedication to delivering a high-quality book is evident in every aspect. I am grateful to amazonpublishingspot.com for their outstanding publishing services and would highly recommend them to any author seeking a seamless and successful publishing journey.</p>
+                                        <p class="text-center review-text list-scroll">I am extremely pleased with the publishing services provided by authorseclipse.com for my book, from start to finish, their team demonstrated professionalism, expertise, and a genuine commitment to bringing my vision to life. They guided me through the entire publishing process, offering valuable insights and suggestions along the way. The final product surpassed my expectations, with a beautifully designed cover and impeccable formatting. The team's attention to detail and dedication to delivering a high-quality book is evident in every aspect. I am grateful to authorseclipse.com for their outstanding publishing services and would highly recommend them to any author seeking a seamless and successful publishing journey.</p>
                                         <ul class="list-group text-left">
                                             <li class="list-group-item">
                                                 <span class="text-uppercase">communication</span>
@@ -273,7 +273,7 @@ AVIRUL ISLAM
                                         <h3 class="text-center review-heading">Sincerely, <br>
 Dr. J.K Hudson
 </h3>
-                                        <p class="text-center review-text">Choosing Kindle Vella through Amazon Publishing Spot  for publishing my work has been a remarkable decision. The platform's user-friendly interface, coupled with its vast reader base, has allowed my stories to captivate a wide audience. The serialized format of Kindle Vella has not only increased reader engagement but also opened doors to new opportunities for my writing career. With Kindle Vella, I have found a supportive community of readers and fellow authors, and the seamless publishing process has given me complete control over my work. I highly recommend Kindle Vella to any author looking to embark on an exciting and rewarding publishing journey.</p>
+                                        <p class="text-center review-text">Choosing Kindle Vella through Worldwide Publisher  for publishing my work has been a remarkable decision. The platform's user-friendly interface, coupled with its vast reader base, has allowed my stories to captivate a wide audience. The serialized format of Kindle Vella has not only increased reader engagement but also opened doors to new opportunities for my writing career. With Kindle Vella, I have found a supportive community of readers and fellow authors, and the seamless publishing process has given me complete control over my work. I highly recommend Kindle Vella to any author looking to embark on an exciting and rewarding publishing journey.</p>
                                         <ul class="list-group text-left">
                                             <li class="list-group-item">
                                                 <span class="text-uppercase">communication</span>
@@ -317,7 +317,7 @@ Dr. J.K Hudson
                             <p>We'll turn your thoughts into a carefully crafted and critically acclaimed book</p>
                         </div>
                         <div class="cta-btn">
-                            <a href="tel:+7272737217" class="cta-btn-1">Call Us (727) 273-7217</a>
+                            <a href="tel:3235914113" class="cta-btn-1">Call Us (323) 591-4113</a>
                             <a href="javascript:;" onclick="LiveChatWidget.call('maximize');return false;" class="cta-btn-2 liveChat">Live Chat</a>
                             <a href="javascript:;" class="cta-btn-3 order_button2">Get A Quote</a>
                         </div>
@@ -330,14 +330,23 @@ Dr. J.K Hudson
                 <div class="row">
                     <div class="col-md-12">
                         <div class="sample-txt contact-txt-sec">
-                            <h2>Send Us a Message</h2>
-                            <p>Please fill out your details, and our team will contact you soon.</p>
+                            <h2 style="color:black;">Send Us a Message</h2>
+                            <p style="color:black;">Please fill out your details, and our team will contact you soon.</p>
                         </div>
                         <div class="contact-box col-md-8">
-                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads"><input type="text" name="route" style="display: none;">
                                 <input type="hidden" name="url" value='testimonials.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
+<?php
+// Check if session is already started
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Generate a token or use existing token
+$token = $_SESSION['token'] ?? bin2hex(random_bytes(16));
+?>
 <input type="hidden" name="token" value="<?= $token; ?>">
 <input type="hidden" name="tag" value="top-form">
 <input type="hidden" name="price" value="null">
@@ -400,11 +409,11 @@ Dr. J.K Hudson
                                 </div>
                                 <div class="col-lg col-b-2">
                                     <p>Make a Call</p>
-                                    <a href="tel:+7272737217" class="con-cta-btn ct-b2"> (727) 273-7217</a>
+                                    <a href="tel:3235914113" class="con-cta-btn ct-b2"> (323) 591-4113</a>
                                 </div>
                                 <div class="col-lg p0 col-b-3">
                                     <p>Send us Email</p>
-                                    <a href="mailto:info@amazonpublishingspot.com" class="con-cta-btn ct-b3">info@amazonpublishingspot.com</a>
+                                    <a href="mailto:info@worldwidepublisher.com" class="con-cta-btn ct-b3">info@worldwidepublisher.com</a>
                                 </div>
                             </div>
                         </div>
@@ -503,7 +512,7 @@ Dr. J.K Hudson
                 <div class="row">
                     <div class="col-md-4">
                         <div class="copy-txt">
-                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Amazon Publishing Spot  . All Rights Reserved. </p>
+                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Worldwide Publisher  . All Rights Reserved. </p>
                         </div>
                     </div>
                     <div class="col-md-4"></div>
@@ -522,7 +531,7 @@ Dr. J.K Hudson
                     <div class="banner-inner-tr">
                         <img src="images/50-off.png">
                     </div>
-                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                    <form  class="form_submission form-get-quote" method="POST" action="/leads"><input type="text" name="route" style="display: none;">
                         <input type="hidden" name="url" value='testimonials.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -550,7 +559,7 @@ Dr. J.K Hudson
                             <div class="col-lg">
                                 <select name="service" data-name="service" class="classic form-control">
                                     <optgroup label="&nbsp; Select A Service">
-                                        <option value="Select A Service"></option>
+                                        <option value="none">Select A Service</option>
                                         <option value="Book Writing " data-amt="16" data-deadline="1">Book Writing </option>
                                         <option value="Book Marketing " data-amt="16" data-deadline="1">Book Marketing</option>
                                         <option value="Book Cover Design" data-amt="50" data-deadline="1">Book Cover Design </option>
@@ -560,11 +569,7 @@ Dr. J.K Hudson
                                     </optgroup>
                                 </select>
                             </div>
-                            <div class="col-lg agree-two">
-                                <input name="quote[check]" type="checkbox" id="test2">
-                                <label for="test2">I Agree to <a href="terms-and-condition-2/">Terms of Use</a> and the <a href="privacy-policy/">Privacy Policy.</a>
-                                </label>
-                            </div>
+                          
                             <div class="col-lg bnr-form-btn">
                               
                                 <span class="form-extra-data"></span>
@@ -589,17 +594,17 @@ Dr. J.K Hudson
         </section>
         <div class="floatbutton">
             <div class="btns_wrap">
-                <a href="javascript:void(Tawk_API.toggle())" class="chat_wrap liveChat">
+                <a href="javascript:;" onclick="LiveChatWidget.call('maximize');" class="chat_wrap liveChat">
                     <span class="icoo">
                         <i class="fa fa-comment"></i>
                     </span>
                     <span>Chat With Us</span>
                 </a>
-                <a href="tel:+7272737217" class="call_wrap">
+                <a href="tel:3235914113" class="call_wrap">
                     <span class="icoo">
                         <i class="fa fa-phone"></i>
                     </span>
-                    <span> (727) 273-7217</span>
+                    <span> (323) 591-4113</span>
                 </a>
             </div>
             <div class="clickbutton">
@@ -622,7 +627,7 @@ Dr. J.K Hudson
                     <div class="modal-body text-center  pt-0 pb-4 pr-4 pl-4">
                         <h4 class="mb-2">Activate this offer to avail Exclusive Discounts</h4>
                         <h3 class="mb-4 font-large" style="font-size: 28px;">LAST 3 COUPONS LEFT</h3>
-                        <form  method="POST" action="/leads/" class="form_submission form-get-quote">
+                        <form  method="POST" action="/leads" class="form_submission form-get-quote">
                             <input type="hidden" name="url" value='testimonials.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">

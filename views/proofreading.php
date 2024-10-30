@@ -13,7 +13,7 @@
         
 
 
-        <title>Home | Amazon Publishing Spot </title>
+        <title>Home | Worldwide Publisher </title>
     </head>
     <body class="">
         <!-- top-header -->
@@ -36,7 +36,7 @@
                                 <h4>We Make Your Last Drafts Perfect</h4>
                                 <h2>Our editors and proofreaders examine your written materials with a keen eye.
                                 </h2>
-                                <p><a href="javascript:;">Amazon Publishing Spot  </a> have linguistic professionals who proofread and edit your book and point out
+                                <p><a href="javascript:;">Worldwide Publisher  </a> have linguistic professionals who proofread and edit your book and point out
                                     grammatical errors, structural mistakes, verb issues and more to help you improve
                                     your handwritten masterpiece</p>
 
@@ -46,153 +46,104 @@
 
                                 <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btnres1">Get A Quote</a>
 
-                                <a href="javascript:void(Tawk_API.toggle())"  class="btn btnres2">Get Started</a>
+                                <a href="javascript:;" onclick="LiveChatWidget.call('maximize');"  class="btn btnres2">Get Started</a>
 
 
                             </div>
 
                         </div>
                         <div class="col-md-6">
-                            <!--  <section class="custom-ban-form">-->
-<!--    <div class="form-banner">-->
-<!--    <h3 style="    font-size: 24px;-->
-<!--    padding-bottom: 10px;-->
-<!--    text-align: center;"><Strong>Let’s Get Started!</Strong></h3>-->
-<!--    <div class="banform">-->
-<!--      <div class="container">-->
-<!--        <div class="row">-->
-<!--          <div class="ban-form">-->
-<!--            <form class="cmxform form-get-quote" action="javascript:;" method="POST" >-->
-                                      
-<!--              <div class="row">-->
-<!--                <div class="col-lg-12">-->
-<!--                  <div class="fldset">-->
-<!--                    <input  id="username" name="quote[name]"  type="text" placeholder="Enter your name *" required  onkeydown="return /[a-z]/i.test(event.key)"/>-->
-                    
-<!--                  </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-12">-->
-<!--                  <div class="fldset">-->
-<!--                    <input id="cemail" type="email" name="quote[email]" placeholder="Enter email here *" required>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--                <div class="col-lg-12">-->
-<!--                  <div class="fldset">-->
-<!--                    <input   name="quote[phone]" class="phoneNum" type="text" placeholder="Phone Number *"   required />-->
-<!--                  </div>-->
-<!--                </div>-->
-                
-<!--                <div class="col-lg-12">-->
-<!--                  <div class="fldset">-->
-<!--                    <textarea name="quote[brief]" rows="7" placeholder="Talk About Your Project"></textarea>-->
-<!--                  </div>-->
-<!--                </div>-->
-                
-<!--                <div class="col-lg-12">-->
-<!--                  <div class="fldset">-->
-<!--                    <input name="submit" type="submit" placeholder="Connect With Us" required />-->
-                       
-                 
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </form>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--</div>-->
-<!--           </section>-->
+                                <div class="form-box">
+                                    <!--<img src="images/blacklogo.png" class="img-fluid logoimg">-->
+                                    <h2 style="color:#000;font-size:40px;">Create Account</h2>
+                                    <div class="default-form">
+                                        <form method="post" class="form_submission form-get-quote" id="contact-form" action="/leads">
 
+                                            <input type="text" name="route" style="display: none;">
+                                            <input type="hidden" name="url" value='index.html'>
+                                            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="brand" value="AUTHORSECLIPSE">
+                                            <?php
+// Check if session is already started
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
-   
- <div class="form-box" style="margin-top:0px;">
-    <img src="images/blacklogo.png" class="img-fluid logoimg">
-<h2 style="color:#000;font-size:40px;">Create account</h2>
-	<div class="default-form">
-		<form action="/leads/" method="POST" class="form-get-quote form_submission" id="contact-form">
-		     <input type="hidden" name="url" value='proofreading.html'>
-           <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
-<input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
-<input type="hidden" name="token" value="<?= $token; ?>">
-<input type="hidden" name="tag" value="top-form">
-<input type="hidden" name="price" value="null">
-<input type="hidden" name="news" value="1">
-           <input type="hidden" name="subject" value="Banner Form (amazonpublishingspot.com)">
-           
-           
-           
-			<div class="row clearfix">
-				<div class="form-group col-lg-12 col-md-12 col-sm-12">
-					<div class="field-inner">
-					    <label>Your name</label>
-						<input type="text" name="name" value="" placeholder="First and last name" onkeydown="return /^[A-Za-z\s]+$/.test(event.key)"  required>
-					</div>
-				</div>
-				<div class="form-group col-lg-12 col-md-12 col-sm-12">
-					<div class="field-inner">
-					    <label>Email</label>
-						<input type="email" name="email"  
-							 required>
-					</div>
-				</div>
-				<div class="form-group col-lg-12 col-md-12 col-sm-12">
-					<div class="field-inner">
-					    <label>Phone</label>
-						<input type="text"  class="phoneNum" name="phone" required>
-					</div>
-				</div>
-			
-						<div class="form-group col-lg-12 col-md-12 col-sm-12">
-					<div class="field-inner">
-					    <label>Services</label>
-					<select class="form-control"  name="service" data-name="service" id="exampleFormControlSelect1"  required>
-                   <option value="">Services</option>
-                  <option value="Book Writing">Book Writing </option>
-                 <option value=" E-book Writing & Publishing"> E-book Writing & Publishing</option>
-                  <option value="Book Editing & Proofreading">Book Editing & Proofreading</option>
-                   <option value=" Book Cover Design"> Book Cover Design </option>
-                    <option value="  Book Illustrations">Book Illustrations  </option>
-                    <option value="  Book Publishing ">Book Publishing  </option>
-                    <option value="Book Printing">Book Printing </option>
-                       <option value="Book Marketing">Book Marketing</option>
-                       <option value="Author Website">Author Website</option>
-                        <option value=" Amazon Publishing ">Amazon Publishing </option>
-                    </select>
-					</div>
-				</div>
-				<input type="hidden" name="brief" value="No Message">
-				<!--<div class="form-group col-lg-12 col-md-12 col-sm-12">-->
-				<!--    <div class="field-inner">-->
-				<!--     <label>Message</label>-->
-				<!--    <textarea  name="brief" class="form-control"></textarea>-->
-				<!--    </div>-->
-				<!--</div>-->
-				
-			
-				<div class="form-group col-lg-12 col-md-12 col-sm-12">
-				    
-	
-					<button type="submit" class="accountbtn">Create your KDP account</button>
-				</div>
-				
-				 <div class="col-md-12 col-xs-12">
-                <div class="error mt-3 alert alert-danger text-left mb-0" style="display: none"></div>
-                <div class="success mt-3 alert alert-success text-center mb-0 p-2" style="display: none"></div>
-                <div class="loader" style="display: none">
-                    <img alt="loader" src="images/loader.gif">
-                </div>
-            </div>
-				<div class="form-group accountpara col-lg-12 col-md-12 col-sm-12">
-					<p>By creating an account, you agree to Amazon's <a style="color:#007bff; font-weight:bold;" href="terms-and-condition/">Conditions of Use.</a> You can find the privacy notice that applies to you here.</p>
-				
-				</div>
-			
-				
-			</div>
-		</form>
-	</div>
-</div>                         </div>
+// Generate a token or use existing token
+$token = $_SESSION['token'] ?? bin2hex(random_bytes(16));
+?>
+                                            <input type="hidden" name="token" value="<?= $token; ?>">
+                                            <input type="hidden" name="tag" value="top-form">
+                                            <input type="hidden" name="price" value="null">
+                                            <input type="hidden" name="news" value="1">
+                                            <input type="hidden" name="subject" value="Banner Form (authorseclipse.com)">
+                                            <div class="row clearfix">
+                                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                                    <div class="field-inner">
+                                                        <label>Your name</label>
+                                                        <input type="text" name="name" value="" placeholder="First and last name" onkeydown="return /^[A-Za-z\s]+$/.test(event.key)" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                                    <div class="field-inner">
+                                                        <label>Email</label>
+                                                        <input type="email" name="email" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                                    <div class="field-inner">
+                                                        <label>Phone</label>
+                                                        <input type="text" class="phoneNum" name="phone" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                                    <div class="field-inner">
+                                                        <label>Services</label>
+                                                        <select class="form-control" name="service" data-name="service" id="exampleFormControlSelect1" required>
+                                                            <option value="">Services</option>
+                                                            <option value="Book Writing">Book Writing </option>
+                                                            <option value=" E-book Writing & Publishing"> E-book Writing & Publishing</option>
+                                                            <option value="Book Editing & Proofreading">Book Editing & Proofreading</option>
+                                                            <option value=" Book Cover Design"> Book Cover Design </option>
+                                                            <option value="  Book Illustrations">Book Illustrations </option>
+                                                            <option value="  Book Publishing ">Book Publishing </option>
+                                                            <option value="Book Printing">Book Printing </option>
+                                                            <option value="Book Marketing">Book Marketing</option>
+                                                            <option value="Author Website">Author Website</option>
+                                                            <option value=" Amazon Publishing ">Amazon Publishing</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <input type="hidden" name="brief" value="No Message">
+
+                                                <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+
+ <!-- Hidden fields for additional data -->
+
+ <input type="hidden" name="lb_source" value="Organic">
+            <input type="hidden" name="ip2loc_ip" value="">
+            <input type="hidden" name="ip2loc_country" value="">
+            <input type="hidden" name="ip2loc_region" value="">
+            <input type="hidden" name="ip2loc_city" value="">
+
+                                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                                    <button type="submit" class="accountbtn">Get Started</button>
+                                                </div>
+                                                <div class="col-md-12 col-xs-12">
+                                                    <div class="error mt-3 alert alert-danger text-left mb-0" style="display: none"></div>
+                                                    <div class="success mt-3 alert alert-success text-center mb-0 p-2" style="display: none"></div>
+                                                    <div class="loader" style="display: none">
+                                                        <img alt="loader" src="images/loader.gif">
+                                                    </div>
+                                                </div>
+                                            
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -264,7 +215,7 @@
                     <br>
                     <div class="inner-txt-p">
                         <p>Whether you are an internationally acclaimed author or a newbie, you need a fresh pair of
-                            eyes to go through your best work. At Amazon Publishing Spot  our team of proofreaders make sure
+                            eyes to go through your best work. At Worldwide Publisher  our team of proofreaders make sure
                             that the written copies of your dreams are error-free and grammatically correct. We house
                             industry's best, most versatile experts who analyse and rid your work of art from any
                             possible mistakes that there may be.</p>
@@ -306,7 +257,7 @@
                             <div class="img-box img-ser1"></div>
                             <div class="ser-box-txt">
                                 <h3>Widespread Expertise</h3>
-                                <p class="list-scroll">With Amazon Publishing Spot  the sky is your limit. Our experienced
+                                <p class="list-scroll">With Worldwide Publisher  the sky is your limit. Our experienced
                                     team of bookmarketeers has writers specialised in multiple genres. Whether it's an
                                     autobiography, a piece of fiction, or a well-researched business publication – we
                                     ensure exceptional quality and unparalleled service.</p>
@@ -370,7 +321,7 @@
 
                 <div class="cta-btn">
 
-                  <a href="tel:+(727) 513-5653 " class="cta-btn-1" >Call Us (727) 273-7217 </a>
+                  <a href="tel:3235914113 " class="cta-btn-1" >Call Us (323) 591-4113 </a>
 
                     <a href="javascript:;" onclick="LiveChatWidget.call('maximize');return false;" class="cta-btn-2 liveChat" >Live Chat</a>
 
@@ -1011,11 +962,11 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="sample-txt contact-txt-sec">
-                            <h2>Send Us a Message</h2>
-                            <p>Please fill out your details, and our team will contact you soon.</p>
+                            <h2 style="color:black;">Send Us a Message</h2>
+                            <p style="color:black;">Please fill out your details, and our team will contact you soon.</p>
                         </div>
                         <div class="contact-box col-md-8">
-                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads"><input type="text" name="route" style="display: none;">
                                 <input type="hidden" name="url" value='proofreading.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -1081,11 +1032,11 @@
                                 </div>
                                 <div class="col-lg col-b-2">
                                     <p>Make a Call</p>
-                                    <a href="tel:+7272737217" class="con-cta-btn ct-b2"> (727) 273-7217</a>
+                                    <a href="tel:3235914113" class="con-cta-btn ct-b2"> (323) 591-4113</a>
                                 </div>
                                 <div class="col-lg p0 col-b-3">
                                     <p>Send us Email</p>
-                                    <a href="mailto:info@amazonpublishingspot.com" class="con-cta-btn ct-b3">info@amazonpublishingspot.com</a>
+                                    <a href="mailto:info@worldwidepublisher.com" class="con-cta-btn ct-b3">info@worldwidepublisher.com</a>
                                 </div>
                             </div>
                         </div>
@@ -1185,7 +1136,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="copy-txt">
-                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Amazon Publishing Spot  . All Rights Reserved. </p>
+                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Worldwide Publisher  . All Rights Reserved. </p>
                         </div>
                     </div>
                     <div class="col-md-4"></div>
@@ -1204,7 +1155,7 @@
                     <div class="banner-inner-tr">
                         <img src="images/50-off.png">
                     </div>
-                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                    <form  class="form_submission form-get-quote" method="POST" action="/leads"><input type="text" name="route" style="display: none;">
                         <input type="hidden" name="url" value='proofreading.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -1232,7 +1183,7 @@
                             <div class="col-lg">
                                 <select name="service" data-name="service" class="classic form-control">
                                     <optgroup label="&nbsp; Select A Service">
-                                        <option value="Select A Service"></option>
+                                        <option value="none">Select A Service</option>
                                         <option value="Book Writing " data-amt="16" data-deadline="1">Book Writing </option>
                                         <option value="Book Marketing " data-amt="16" data-deadline="1">Book Marketing</option>
                                         <option value="Book Cover Design" data-amt="50" data-deadline="1">Book Cover Design </option>
@@ -1242,11 +1193,7 @@
                                     </optgroup>
                                 </select>
                             </div>
-                            <div class="col-lg agree-two">
-                                <input name="quote[check]" type="checkbox" id="test2">
-                                <label for="test2">I Agree to <a href="terms-and-condition-2/">Terms of Use</a> and the <a href="privacy-policy/">Privacy Policy.</a>
-                                </label>
-                            </div>
+                        
                             <div class="col-lg bnr-form-btn">
                               
                                 <span class="form-extra-data"></span>
@@ -1271,17 +1218,17 @@
         </section>
         <div class="floatbutton">
             <div class="btns_wrap">
-                <a href="javascript:void(Tawk_API.toggle())" class="chat_wrap liveChat">
+                <a href="javascript:;" onclick="LiveChatWidget.call('maximize');" class="chat_wrap liveChat">
                     <span class="icoo">
                         <i class="fa fa-comment"></i>
                     </span>
                     <span>Chat With Us</span>
                 </a>
-                <a href="tel:+7272737217" class="call_wrap">
+                <a href="tel:3235914113" class="call_wrap">
                     <span class="icoo">
                         <i class="fa fa-phone"></i>
                     </span>
-                    <span> (727) 273-7217</span>
+                    <span> (323) 591-4113</span>
                 </a>
             </div>
             <div class="clickbutton">
@@ -1304,7 +1251,7 @@
                     <div class="modal-body text-center  pt-0 pb-4 pr-4 pl-4">
                         <h4 class="mb-2">Activate this offer to avail Exclusive Discounts</h4>
                         <h3 class="mb-4 font-large" style="font-size: 28px;">LAST 3 COUPONS LEFT</h3>
-                        <form  method="POST" action="/leads/" class="form_submission form-get-quote">
+                        <form  method="POST" action="/leads" class="form_submission form-get-quote">
                             <input type="hidden" name="url" value='proofreading.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">

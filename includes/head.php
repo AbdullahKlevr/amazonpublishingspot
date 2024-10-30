@@ -1,5 +1,5 @@
 <?php
-include_once("token.php");
+
 
 if (isset($_SERVER['HTTPS'])) {
   $requesMet = "https";
@@ -16,8 +16,8 @@ if (isset($_SERVER['HTTPS'])) {
         <meta name="keywords" content="" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="images/favicon.png">
-        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <link rel="icon" type="image/png" href="images/newfavwwp.png">
+        <link rel="icon" type="image/x-icon" href="images/newfavwwp.png">
         
         <link class="myLazy loaded" rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
@@ -40,27 +40,18 @@ if (isset($_SERVER['HTTPS'])) {
   }
    </style>
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/65f1d3478d261e1b5f6d44f0/1hosa2k53';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
+
+
+
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-308326143"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-965452815"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-308326143');
+  gtag('config', 'AW-965452815');
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRZTPWYNM0"></script>

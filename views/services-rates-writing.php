@@ -116,8 +116,8 @@
         <div class="tal_us">
             <ul class="talk_list">
                 <li>
-                    <a href="tel:7272737217">
-                         (727) 273-7217
+                    <a href="tel:3235914113">
+                         (323) 591-4113
                     </a>
                 </li>
                 <li>
@@ -447,8 +447,8 @@ Bookwriting Packages</h1>
                         <div class="footer-right">
                             <p>
                                 Email:
-                                <a href="mailto:info@amazonpublishingspot.com" title="Address">
-                                    <strong>info@amazonpublishingspot.com</strong>
+                                <a href="mailto:info@worldwidepublisher.com" title="Address">
+                                    <strong>info@worldwidepublisher.com</strong>
                                 </a>
                             </p>
                         </div>
@@ -469,8 +469,8 @@ Bookwriting Packages</h1>
                         <div class="footer-right">
                             <p>
                                 Phone:
-                                <a href="tel:(727) 273-7217" title="Phone">
-                                    <strong>(727) 273-7217 </strong>
+                                <a href="tel:3235914113" title="Phone">
+                                    <strong>(323) 591-4113 </strong>
                                 </a>
                             </p>
                         </div>
@@ -751,7 +751,7 @@ Bookwriting Packages</h1>
                         </div>
                         <p>Get Your Name In The List Of <span>Best-Selling Authors</span></p>
                         <div class="form-box-wrap">
-                            <form action="/leads/" class="leadForm popupExit_form_wrap"
+                            <form action="/leads" class="leadForm popupExit_form_wrap"
                                   enctype="multipart/form-data" id="regFormExit" method="post" name="regFormExit">
                                   <input type="hidden" name="url" value='portfolio.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
@@ -792,7 +792,7 @@ Bookwriting Packages</h1>
                             </form>
                         </div>
                         <div class="form-button-wrap">
-                            <a href="tel:+1  (213) 481-5000">CALL NOW</a>
+                            <a href="tel:3235914113">CALL NOW</a>
                             <a href="javascript:;" class="chatt"><i class="fas fa-comments"></i> Chat Now</a>
                         </div>
                     </div>

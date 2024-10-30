@@ -13,7 +13,7 @@
         
 
 
-        <title>Home | Amazon Publishing Spot </title>
+        <title>Home | Worldwide Publisher </title>
     </head>
     <body class="">
         <!-- top-header -->
@@ -135,7 +135,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center  mtpx-50">
                 <h2 class="main-heading text-center">Terms & Conditions</h2>
                 <p class="main-para">
-Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"). This Site is owned by Amazon Publishing Spot , and we appreciate your visit. The purpose of this section is to outline the terms and conditions (the "Terms") that govern your access to and use of our Site. By accessing and using this Site, it is assumed that you understand and agree to be bound by these Terms. The following points are provided to enhance your understanding of the legal framework within which we operate:
+Welcome to the official corporate website of Worldwide Publisher  (the "Site"). This Site is owned by Worldwide Publisher , and we appreciate your visit. The purpose of this section is to outline the terms and conditions (the "Terms") that govern your access to and use of our Site. By accessing and using this Site, it is assumed that you understand and agree to be bound by these Terms. The following points are provided to enhance your understanding of the legal framework within which we operate:
 </p>
             </div>
         </div>
@@ -173,7 +173,7 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                 <br>
                 <!--<h3>PROJECT REQUIREMENTS</h3>-->
                
-                <p>Refund Policy At Amazon Publishing Spot , we offer a straightforward refund policy to our customers, subject to certain conditions:</p>
+                <p>Refund Policy At Worldwide Publisher , we offer a straightforward refund policy to our customers, subject to certain conditions:</p>
                 <br>
               
 
@@ -221,11 +221,11 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                 
                
                 <br>
-                <p>Privacy Policy It is crucial that you understand how we utilize the information we collect about you. For more information on user privacy, security, and how Amazon Publishing Spot  handles user-provided information, please visit our Privacy Policy page.</p>
+                <p>Privacy Policy It is crucial that you understand how we utilize the information we collect about you. For more information on user privacy, security, and how Worldwide Publisher  handles user-provided information, please visit our Privacy Policy page.</p>
                 
               
                 <br>
-                <p>For any questions or media inquiries, please contact us at info@amazonpublishingspot.com, and our marketing manager will respond promptly with appropriate answers.</p>
+                <p>For any questions or media inquiries, please contact us at info@worldwidepublisher.com, and our marketing manager will respond promptly with appropriate answers.</p>
             </div>
         </div>
     </div>
@@ -235,11 +235,11 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                 <div class="row">
                     <div class="col-md-12">
                         <div class="sample-txt contact-txt-sec">
-                            <h2>Send Us a Message</h2>
-                            <p>Please fill out your details, and our team will contact you soon.</p>
+                            <h2 style="color:black;">Send Us a Message</h2>
+                            <p style="color:black;">Please fill out your details, and our team will contact you soon.</p>
                         </div>
                         <div class="contact-box col-md-8">
-                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                            <form class="cmxform form-get-quote form_submission"  method="POST" action="/leads"><input type="text" name="route" style="display: none;">
                                 <input type="hidden" name="url" value='https://amazonpublishingspot.com/terms-and-condition.php'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -305,11 +305,11 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                                 </div>
                                 <div class="col-lg col-b-2">
                                     <p>Make a Call</p>
-                                    <a href="tel:+7272737217" class="con-cta-btn ct-b2"> (727) 273-7217</a>
+                                    <a href="tel:3235914113" class="con-cta-btn ct-b2"> (323) 591-4113</a>
                                 </div>
                                 <div class="col-lg p0 col-b-3">
                                     <p>Send us Email</p>
-                                    <a href="mailto:info@amazonpublishingspot.com" class="con-cta-btn ct-b3">info@amazonpublishingspot.com</a>
+                                    <a href="mailto:info@worldwidepublisher.com" class="con-cta-btn ct-b3">info@worldwidepublisher.com</a>
                                 </div>
                             </div>
                         </div>
@@ -407,7 +407,7 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                 <div class="row">
                     <div class="col-md-4">
                         <div class="copy-txt">
-                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Amazon Publishing Spot  . All Rights Reserved. </p>
+                            <p style="font-size:12px; color:#fff;">Copyright © 2024 Worldwide Publisher  . All Rights Reserved. </p>
                         </div>
                     </div>
                     <div class="col-md-4"></div>
@@ -426,7 +426,7 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                     <div class="banner-inner-tr">
                         <img src="images/50-off.png">
                     </div>
-                    <form  class="form_submission form-get-quote" method="POST" action="/leads/"><input type="text" name="route" style="display: none;">
+                    <form  class="form_submission form-get-quote" method="POST" action="/leads"><input type="text" name="route" style="display: none;">
                         <input type="hidden" name="url" value='terms-and-condition.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
@@ -464,11 +464,7 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                                     </optgroup>
                                 </select>
                             </div>
-                            <div class="col-lg agree-two">
-                                <input name="quote[check]" type="checkbox" id="test2">
-                                <label for="test2">I Agree to <a href="terms-and-condition-2/">Terms of Use</a> and the <a href="privacy-policy/">Privacy Policy.</a>
-                                </label>
-                            </div>
+                          
                             <div class="col-lg bnr-form-btn">
                               
                                 <span class="form-extra-data"></span>
@@ -499,11 +495,11 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                     </span>
                     <span>Chat With Us</span>
                 </a>
-                <a href="tel:+7272737217" class="call_wrap">
+                <a href="tel:3235914113" class="call_wrap">
                     <span class="icoo">
                         <i class="fa fa-phone"></i>
                     </span>
-                    <span> (727) 273-7217</span>
+                    <span> (323) 591-4113</span>
                 </a>
             </div>
             <div class="clickbutton">
@@ -526,7 +522,7 @@ Welcome to the official corporate website of Amazon Publishing Spot  (the "Site"
                     <div class="modal-body text-center  pt-0 pb-4 pr-4 pl-4">
                         <h4 class="mb-2">Activate this offer to avail Exclusive Discounts</h4>
                         <h3 class="mb-4 font-large" style="font-size: 28px;">LAST 3 COUPONS LEFT</h3>
-                        <form  method="POST" action="/leads/" class="form_submission form-get-quote">
+                        <form  method="POST" action="/leads" class="form_submission form-get-quote">
                             <input type="hidden" name="url" value='terms-and-condition.html'>
            <input type="hidden" name="route" value="<?= $_SERVER['REQUEST_URI'] ?>">
 <input type="hidden" name="brand" value="AMAZONPUBLISHINGSPOT">
